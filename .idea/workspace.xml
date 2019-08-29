@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bin/ch01/MyArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch01/MyOrderArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch01/TestArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch01/TestMyArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch02/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch02/InsertSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch02/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch02/TestSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch03/MyCycleQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch03/MyQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch03/MyStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch03/TestMyQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch03/TestMyStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch04/LinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch04/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch04/TestLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch05/DoubleLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch05/FirstLastLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch05/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch05/TestDoubleLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch05/TestFirstLastLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06/Recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06/TestFibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06/TestTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch07/HanoiTower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch07/TestHanoiTower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch08/ShellSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch08/TestShellSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch09/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch09/TestQuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch10/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch10/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch11/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch11/TestTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch11/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch12/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch12/TestTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch12/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch13/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch13/TestTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch13/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch15/HashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch15/Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch15/TestHashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch16/HashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch16/Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch16/TestHashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch17/HashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch17/Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch17/LinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch17/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch17/TestHashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch18/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch18/TestGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch18/Vertex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch19/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch19/TestGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch19/Vertex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch20/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch20/TestGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch20/Vertex.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch01/MyArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch10/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch10/Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-174" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch16/HashTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-399" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch20/TestGraph.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch20/Vertex.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch20/Graph.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\javaTools\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="30" />
+    <option name="width" value="1346" />
+    <option name="height" value="698" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="JavaData" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\javaWorkplace\GithubWorkplace\JavaData" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="JavaData" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\javaWorkplace\GithubWorkplace\JavaData" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JavaData" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\javaWorkplace\GithubWorkplace\JavaData" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ch01" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JavaData" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\javaWorkplace\GithubWorkplace\JavaData" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ch10" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JavaData" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\javaWorkplace\GithubWorkplace\JavaData" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ch16" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="JavaData" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\javaWorkplace\GithubWorkplace\JavaData" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ch20" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="" />
+      <created>1566830490564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566830490564</updated>
+      <workItem from="1566830512137" duration="332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="332000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Mybatis datasource" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bin/ch01/MyArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#1619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch01/MyArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch10/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch10/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch16/HashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch20/TestGraph.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch20/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch20/Graph.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
