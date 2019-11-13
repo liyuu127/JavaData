@@ -16,14 +16,25 @@ import java.util.Arrays;
  * 输出:?[1,2,2,3,5,6]
  */
 public class MergeSortedArray {
+    public static void main(String[] args) {
+        int[] nums1={1,2,3,0,0,0},nums2={2,5,6};
+        merge2(nums1,3,nums2,3);
+        System.out.println("Arrays.toString(nums1) = " + Arrays.toString(nums1));
+    }
+
+    //时间复杂度 : O((n+m)log(n+m))。
+    //空间复杂度 : O(1)。
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         System.arraycopy(nums2, 0, nums1, m, n);
         Arrays.sort(nums1);
     }
 
-    public void merge2(int[] nums1, int m, int[] nums2, int n) {
-// Make a copy of nums1.
-        int [] nums1_copy = new int[m];
+
+    //时间复杂度 : O(n+m)。
+    //空间复杂度 : O(m)。
+    public static void merge2(int[] nums1, int m, int[] nums2, int n) {
+        // Make a copy of nums1.
+        int[] nums1_copy = new int[m];
         System.arraycopy(nums1, 0, nums1_copy, 0, m);
 
         // Two get pointers for nums1_copy and nums2.
@@ -44,4 +55,24 @@ public class MergeSortedArray {
         if (p2 < n)
             System.arraycopy(nums2, p2, nums1, p1 + p2, m + n - p1 - p2);
     }
+
+    //时间复杂度 : O(n+m)。
+    //空间复杂度 : O(1)。
+    public void merge3(int[] nums1, int m, int[] nums2, int n) {
+        // two get pointers for nums1 and nums2
+        int p1 = m - 1;
+        int p2 = n - 1;
+        // set pointer for nums1
+        int p = m + n - 1;
+
+        // while there are still elements to compare
+        while ((p1 >= 0) && (p2 >= 0))
+            // compare two elements from nums1 and nums2
+            // and add the largest one in nums1
+            nums1[p--] = (nums1[p1] < nums2[p2]) ? nums2[p2--] : nums1[p1--];
+
+        // add missing elements from nums2
+        System.arraycopy(nums2, 0, nums1, 0, p2 + 1);
+    }
+
 }
