@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-lang-2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/multithread/MultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/array/simple/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/array/simple/FindDiagonalOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/array/simple/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/array/simple/ReverseWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/array/simple/SpiralOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/array/simple/YangHuiTriangleI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/multithread/CallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/multithread/MyCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/multithread/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/multithread/ThreadPoolExecutorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,13 +72,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MultiThread (1)">
-    <configuration name="GetBodyParamsFromReq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.GetBodyParamsFromReq" />
+  <component name="RunManager" selected="Application.CallableDemo">
+    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.multithread.CallableDemo" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.*" />
+          <option name="PATTERN" value="base.multithread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.array.simple.MoveZeroes" />
+    <configuration name="GetBodyParamsFromReq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.GetBodyParamsFromReq" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCode.array.simple.*" />
+          <option name="PATTERN" value="algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YangHuiTriangleI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.array.simple.YangHuiTriangleI" />
+    <configuration name="ThreadPoolExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.multithread.ThreadPoolExecutorDemo" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCode.array.simple.*" />
+          <option name="PATTERN" value="base.multithread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CallableDemo" />
+        <item itemvalue="Application.ThreadPoolExecutorDemo" />
         <item itemvalue="Application.MultiThread (1)" />
         <item itemvalue="Application.MultiThread" />
         <item itemvalue="Application.GetBodyParamsFromReq" />
-        <item itemvalue="Application.YangHuiTriangleI" />
-        <item itemvalue="Application.MoveZeroes" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +173,9 @@
       <workItem from="1573606141448" duration="37763000" />
       <workItem from="1574129834640" duration="4534000" />
       <workItem from="1574160240178" duration="923000" />
-      <workItem from="1574210599860" duration="8337000" />
+      <workItem from="1574210599860" duration="9061000" />
+      <workItem from="1574416773535" duration="915000" />
+      <workItem from="1574582791427" duration="2835000" />
     </task>
     <task id="LOCAL-00001" summary="数组第二天">
       <created>1573200305341</created>
@@ -210,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573643424213</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="数组第五天">
+      <created>1574394735480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574394735480</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +235,8 @@
     <MESSAGE value="数组第二天" />
     <MESSAGE value="数组第三天" />
     <MESSAGE value="数组第四天" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组第四天" />
+    <MESSAGE value="数组第五天" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组第五天" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
