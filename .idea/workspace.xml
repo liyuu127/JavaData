@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/multithread/CallableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/multithread/MyCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/multithread/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/multithread/ThreadPoolExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/pathTest1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/pathTest2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/pathTest3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/test/pathTest2Copy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/io/bio/IOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/io/bio/IOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/io/nio/IOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/io/nio/NIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/io/path/PathDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaData.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaData.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/multithread/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/MyRunnable.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +47,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -46,7 +55,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot-study" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -55,6 +65,9 @@
     <property name="settings.editor.selected.configurable" value="Lombok plugin" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="base.io.nio" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\lib" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\leetCode\array\simple" />
@@ -72,13 +85,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CallableDemo">
-    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.multithread.CallableDemo" />
+  <component name="RunManager" selected="Application.PathDemo">
+    <configuration name="CyclicBarrierExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.multithread.lock.CyclicBarrierExample2" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.multithread.*" />
+          <option name="PATTERN" value="base.multithread.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetBodyParamsFromReq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.GetBodyParamsFromReq" />
+    <configuration name="CyclicBarrierExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.multithread.lock.CyclicBarrierExample3" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.*" />
+          <option name="PATTERN" value="base.multithread.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.multithread.MultiThread" />
+    <configuration name="IOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.io.bio.IOClient" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.multithread.*" />
+          <option name="PATTERN" value="base.io.bio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java.multithreadLearn.MultiThread" />
+    <configuration name="IOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.io.bio.IOServer" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.multithreadLearn.*" />
+          <option name="PATTERN" value="base.io.bio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.multithread.ThreadPoolExecutorDemo" />
+    <configuration name="PathDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.io.path.PathDemo" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.multithread.*" />
+          <option name="PATTERN" value="base.io.path.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CallableDemo" />
-        <item itemvalue="Application.ThreadPoolExecutorDemo" />
-        <item itemvalue="Application.MultiThread (1)" />
-        <item itemvalue="Application.MultiThread" />
-        <item itemvalue="Application.GetBodyParamsFromReq" />
+        <item itemvalue="Application.PathDemo" />
+        <item itemvalue="Application.IOClient" />
+        <item itemvalue="Application.IOServer" />
+        <item itemvalue="Application.CyclicBarrierExample3" />
+        <item itemvalue="Application.CyclicBarrierExample2" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +188,7 @@
       <workItem from="1574160240178" duration="923000" />
       <workItem from="1574210599860" duration="9061000" />
       <workItem from="1574416773535" duration="915000" />
-      <workItem from="1574582791427" duration="2835000" />
+      <workItem from="1574582791427" duration="51859000" />
     </task>
     <task id="LOCAL-00001" summary="数组第二天">
       <created>1573200305341</created>
@@ -212,7 +225,35 @@
       <option name="project" value="LOCAL" />
       <updated>1574394735480</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="多线程学习">
+      <created>1574588908129</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574588908129</updated>
+    </task>
+    <task id="LOCAL-00007" summary="乐观锁实现的几种方式">
+      <created>1574668987455</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574668987455</updated>
+    </task>
+    <task id="LOCAL-00008" summary="原子类操作">
+      <created>1574675444735</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574675444735</updated>
+    </task>
+    <task id="LOCAL-00009" summary="CountDownLatch倒计时器和CyclicBarrier循环栅栏">
+      <created>1574737834937</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574737834937</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,11 +273,16 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="数组第二天" />
     <MESSAGE value="数组第三天" />
     <MESSAGE value="数组第四天" />
     <MESSAGE value="数组第五天" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组第五天" />
+    <MESSAGE value="多线程学习" />
+    <MESSAGE value="乐观锁实现的几种方式" />
+    <MESSAGE value="原子类操作" />
+    <MESSAGE value="CountDownLatch倒计时器和CyclicBarrier循环栅栏" />
+    <option name="LAST_COMMIT_MESSAGE" value="CountDownLatch倒计时器和CyclicBarrier循环栅栏" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

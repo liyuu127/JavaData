@@ -1,6 +1,7 @@
 package base.multithread;
 
 import java.util.Date;
+import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * @author liyu
