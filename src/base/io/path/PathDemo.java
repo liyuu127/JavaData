@@ -43,6 +43,11 @@ public class PathDemo {
 //        demo8();
 
         //遍历整个文件目录
+        demo9();
+
+    }
+
+    private static void demo9() {
         Path src = Paths.get("src");
         List pathLinkList = new LinkedList<Path>();
         try {
@@ -51,7 +56,6 @@ public class PathDemo {
             e.printStackTrace();
         }
         pathLinkList.forEach(e-> System.out.println("e = " + e));
-
     }
 
     private static class FindJavaVistor extends SimpleFileVisitor<Path> {
