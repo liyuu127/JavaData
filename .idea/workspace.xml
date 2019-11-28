@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/pathTest1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/pathTest2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/pathTest3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/test/pathTest2Copy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/io/bio/IOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/io/bio/IOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/io/nio/IOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/io/nio/NIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/io/path/PathDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaData.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaData.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/multithread/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/MyRunnable.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +176,7 @@
       <workItem from="1574160240178" duration="923000" />
       <workItem from="1574210599860" duration="9061000" />
       <workItem from="1574416773535" duration="915000" />
-      <workItem from="1574582791427" duration="51859000" />
+      <workItem from="1574582791427" duration="51919000" />
     </task>
     <task id="LOCAL-00001" summary="数组第二天">
       <created>1573200305341</created>
@@ -253,7 +241,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574737834937</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="io">
+      <created>1574826241708</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574826241709</updated>
+    </task>
+    <task id="LOCAL-00011" summary="io">
+      <created>1574826282955</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574826282955</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +284,8 @@
     <MESSAGE value="乐观锁实现的几种方式" />
     <MESSAGE value="原子类操作" />
     <MESSAGE value="CountDownLatch倒计时器和CyclicBarrier循环栅栏" />
-    <option name="LAST_COMMIT_MESSAGE" value="CountDownLatch倒计时器和CyclicBarrier循环栅栏" />
+    <MESSAGE value="io" />
+    <option name="LAST_COMMIT_MESSAGE" value="io" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
