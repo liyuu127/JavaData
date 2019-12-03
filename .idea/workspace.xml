@@ -2,7 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/java8/time/TimeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/ConcreteBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/demo/KFCWaiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/demo/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/demo/MealA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/demo/MealB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/demo/MealBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/AK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/AKBullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/AKFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/Gun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/M4A1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/M4A1Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/M4A1Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/factorymethod/CircleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/factorymethod/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/factorymethod/RectangleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/factorymethod/SquareFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/factorymethod/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/simplefactory/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/simplefactory/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/simplefactory/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/simplefactory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/simplefactory/ShapeFactory2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/simplefactory/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/simplefactory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/singleton/ESTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/singleton/Singleton2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/singleton/Singleton3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/singleton/Singleton4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/singleton/Singleton5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/singleton/Singleton6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,7 +87,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot-study" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaGuide" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -75,13 +116,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimeDemo">
-    <configuration name="CyclicBarrierExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.multithread.lock.CyclicBarrierExample3" />
+  <component name="RunManager" selected="Application.Test (4)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.designpatterns.creationalpattern.factory.factorymethod.Test" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.multithread.lock.*" />
+          <option name="PATTERN" value="base.designpatterns.creationalpattern.factory.factorymethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.io.bio.IOClient" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.designpatterns.creationalpattern.factory.abstractfactory.Test" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.io.bio.*" />
+          <option name="PATTERN" value="base.designpatterns.creationalpattern.factory.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.io.bio.IOServer" />
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.designpatterns.creationalpattern.builder.Test" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.io.bio.*" />
+          <option name="PATTERN" value="base.designpatterns.creationalpattern.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.io.path.PathDemo" />
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.designpatterns.creationalpattern.builder.demo.Test" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.io.path.*" />
+          <option name="PATTERN" value="base.designpatterns.creationalpattern.builder.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.java8.time.TimeDemo" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.designpatterns.creationalpattern.factory.simplefactory.Test" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.java8.time.*" />
+          <option name="PATTERN" value="base.designpatterns.creationalpattern.factory.factorymethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TimeDemo" />
-        <item itemvalue="Application.PathDemo" />
-        <item itemvalue="Application.IOClient" />
-        <item itemvalue="Application.IOServer" />
-        <item itemvalue="Application.CyclicBarrierExample3" />
+        <item itemvalue="Application.Test (4)" />
+        <item itemvalue="Application.Test (3)" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +221,7 @@
       <workItem from="1574416773535" duration="915000" />
       <workItem from="1574582791427" duration="51919000" />
       <workItem from="1574927540522" duration="9128000" />
-      <workItem from="1575269713356" duration="4172000" />
+      <workItem from="1575269713356" duration="21836000" />
     </task>
     <task id="LOCAL-00001" summary="数组第二天">
       <created>1573200305341</created>
@@ -259,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574826282955</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="java8时间新特性学习">
+      <created>1575274189449</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575274189449</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +337,8 @@
     <MESSAGE value="原子类操作" />
     <MESSAGE value="CountDownLatch倒计时器和CyclicBarrier循环栅栏" />
     <MESSAGE value="io" />
-    <option name="LAST_COMMIT_MESSAGE" value="io" />
+    <MESSAGE value="java8时间新特性学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="java8时间新特性学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
