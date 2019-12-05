@@ -2,46 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/ConcreteBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/demo/KFCWaiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/demo/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/demo/MealA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/demo/MealB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/demo/MealBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/builder/demo/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/AK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/AKBullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/AKFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/Bullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/Gun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/M4A1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/M4A1Bullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/M4A1Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/abstractfactory/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/factorymethod/CircleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/factorymethod/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/factorymethod/RectangleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/factorymethod/SquareFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/factorymethod/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/simplefactory/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/simplefactory/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/simplefactory/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/simplefactory/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/simplefactory/ShapeFactory2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/simplefactory/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/factory/simplefactory/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/singleton/ESTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/singleton/Singleton2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/singleton/Singleton3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/singleton/Singleton4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/singleton/Singleton5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/singleton/Singleton6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/asm-5.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cglib-3.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/prototype/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/prototype/MessageBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/prototype/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/prototype/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/prototype/UnderlinePen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/adapter/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/adapter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/adapter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/ConcreteImplementor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/Implementor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/RefinedAbstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/BigPen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/Black.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/MiddlePen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/Pen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/SmallPen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/White.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/demo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/composite/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/composite/CompositePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/composite/ConcreteCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/composite/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/composite/FinanceDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/composite/HRDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/decorator/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/decorator/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/decorator/ManDecoratorA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/decorator/ManDecoratorB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/decorator/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/decorator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/decorator/类图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/facade/CPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/facade/Cilent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/facade/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/facade/Disk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/facade/Memory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/facade/UML.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/flyweight/ConcreteFlyWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/flyweight/FlyWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/flyweight/FlyWeight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/flyweight/FlyWeightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/DBQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/DBQueryHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/DBQueryProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/IDBQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/cglib/CglibProxyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/cglib/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/cglib/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/jdkproxy/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/jdkproxy/HelloWorldImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/jdkproxy/JdkProxyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/jdkproxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/reflect/ReflectServicelmpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/reflect/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,6 +83,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Enum" />
+        <option value="Tag Library Descriptor" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -80,6 +106,15 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="LombokPluginEnabledInProject" value="true" />
+    <property name="LombokPluginIS_ANNOTATION_PROCESSING_CHECK_Enabled" value="true" />
+    <property name="LombokPluginIS_BUILDER_Enabled" value="true" />
+    <property name="LombokPluginIS_CONSTRUCTOR_Enabled" value="true" />
+    <property name="LombokPluginIS_DELEGATE_Enabled" value="true" />
+    <property name="LombokPluginIS_LOG_Enabled" value="true" />
+    <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="false" />
+    <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="true" />
+    <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -87,21 +122,27 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaGuide" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Lombok plugin" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="base.io.nio" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\lib" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\leetCode\array\simple" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="base.io.nio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\designpatterns\structuralpattern\flyweight" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\designpatterns\structuralpattern\facade" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\designpatterns\structuralpattern\decorator" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\designpatterns\structuralpattern\bridge\demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -117,12 +158,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Test (4)">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.designpatterns.creationalpattern.factory.factorymethod.Test" />
+    <configuration name="Cilent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.designpatterns.structuralpattern.facade.Cilent" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.designpatterns.creationalpattern.factory.factorymethod.*" />
+          <option name="PATTERN" value="base.designpatterns.structuralpattern.facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.designpatterns.structuralpattern.proxy.Test" />
+      <module name="JavaData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.designpatterns.structuralpattern.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +185,11 @@
       </method>
     </configuration>
     <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.designpatterns.creationalpattern.factory.abstractfactory.Test" />
+      <option name="MAIN_CLASS_NAME" value="base.reflect.Test" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.designpatterns.creationalpattern.factory.abstractfactory.*" />
+          <option name="PATTERN" value="base.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +198,11 @@
       </method>
     </configuration>
     <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.designpatterns.creationalpattern.builder.Test" />
+      <option name="MAIN_CLASS_NAME" value="base.designpatterns.structuralpattern.proxy.jdkproxy.Test" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.designpatterns.creationalpattern.builder.*" />
+          <option name="PATTERN" value="base.designpatterns.structuralpattern.proxy.jdkproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,24 +211,11 @@
       </method>
     </configuration>
     <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.designpatterns.creationalpattern.builder.demo.Test" />
+      <option name="MAIN_CLASS_NAME" value="base.designpatterns.structuralpattern.proxy.cglib.Test" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.designpatterns.creationalpattern.builder.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.designpatterns.creationalpattern.factory.simplefactory.Test" />
-      <module name="JavaData" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.designpatterns.creationalpattern.factory.factorymethod.*" />
+          <option name="PATTERN" value="base.designpatterns.structuralpattern.proxy.cglib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,9 +229,19 @@
         <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Cilent" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -221,7 +272,10 @@
       <workItem from="1574416773535" duration="915000" />
       <workItem from="1574582791427" duration="51919000" />
       <workItem from="1574927540522" duration="9128000" />
-      <workItem from="1575269713356" duration="21836000" />
+      <workItem from="1575269713356" duration="22546000" />
+      <workItem from="1575421153303" duration="6919000" />
+      <workItem from="1575438323809" duration="17032000" />
+      <workItem from="1575528046969" duration="13376000" />
     </task>
     <task id="LOCAL-00001" summary="数组第二天">
       <created>1573200305341</created>
@@ -307,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575274189449</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="设计模式学习:单例模式，抽象工厂，建造者，简单工厂">
+      <created>1575372230539</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575372230539</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +399,8 @@
     <MESSAGE value="CountDownLatch倒计时器和CyclicBarrier循环栅栏" />
     <MESSAGE value="io" />
     <MESSAGE value="java8时间新特性学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="java8时间新特性学习" />
+    <MESSAGE value="设计模式学习:单例模式，抽象工厂，建造者，简单工厂" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式学习:单例模式，抽象工厂，建造者，简单工厂" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
