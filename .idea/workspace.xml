@@ -1,74 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/asm-5.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cglib-3.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/prototype/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/prototype/MessageBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/prototype/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/prototype/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/creationalpattern/prototype/UnderlinePen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/adapter/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/adapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/adapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/adapter/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/Abstraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/ConcreteImplementor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/Implementor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/RefinedAbstraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/BigPen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/Black.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/Blue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/Green.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/MiddlePen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/Pen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/Red.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/SmallPen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/White.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/bridge/demo/demo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/composite/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/composite/CompositePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/composite/ConcreteCompany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/composite/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/composite/FinanceDepartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/composite/HRDepartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/decorator/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/decorator/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/decorator/ManDecoratorA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/decorator/ManDecoratorB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/decorator/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/decorator/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/decorator/类图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/facade/CPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/facade/Cilent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/facade/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/facade/Disk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/facade/Memory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/facade/UML.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/flyweight/ConcreteFlyWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/flyweight/FlyWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/flyweight/FlyWeight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/flyweight/FlyWeightFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/DBQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/DBQueryHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/DBQueryProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/IDBQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/cglib/CglibProxyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/cglib/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/cglib/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/jdkproxy/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/jdkproxy/HelloWorldImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/jdkproxy/JdkProxyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/structuralpattern/proxy/jdkproxy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/reflect/ReflectServicelmpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/reflect/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +208,7 @@
       <workItem from="1575269713356" duration="22546000" />
       <workItem from="1575421153303" duration="6919000" />
       <workItem from="1575438323809" duration="17032000" />
-      <workItem from="1575528046969" duration="13376000" />
+      <workItem from="1575528046969" duration="13776000" />
     </task>
     <task id="LOCAL-00001" summary="数组第二天">
       <created>1573200305341</created>
@@ -368,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575372230539</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="设计模式学习:原型模式，适配器模式，桥接模式，组合模式，装饰者模式，门面模式，享元模式，代理模式">
+      <created>1575543482641</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575543482642</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +340,8 @@
     <MESSAGE value="io" />
     <MESSAGE value="java8时间新特性学习" />
     <MESSAGE value="设计模式学习:单例模式，抽象工厂，建造者，简单工厂" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式学习:单例模式，抽象工厂，建造者，简单工厂" />
+    <MESSAGE value="设计模式学习:原型模式，适配器模式，桥接模式，组合模式，装饰者模式，门面模式，享元模式，代理模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式学习:原型模式，适配器模式，桥接模式，组合模式，装饰者模式，门面模式，享元模式，代理模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
