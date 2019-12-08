@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="" />
+    <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/chainofresponsibility/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/chainofresponsibility/ConcreteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/chainofresponsibility/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/chainofresponsibility/demo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/chainofresponsibility/demo/DeptManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/chainofresponsibility/demo/GeneralManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/chainofresponsibility/demo/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/chainofresponsibility/demo/ProjectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/chainofresponsibility/uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/command/Broker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/command/BuyStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/command/Command.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/command/CommandPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/command/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/command/SellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/command/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/command/command_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/command/seq_Command.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/interpreter/AndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/interpreter/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/interpreter/InterpreterPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/interpreter/OrExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/interpreter/TerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/interpreter/interpreter_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/iterator/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/iterator/NameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/designpatterns/behavioralpattern/iterator/iterator_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/jvm/classload/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/jvm/classload/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/jvm/classload/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/jvm/classload/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +106,11 @@
       <recent name="base.io.nio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\designpatterns\behavioralpattern\iterator" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\designpatterns\behavioralpattern\Interpreter" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\designpatterns\behavioralpattern\command" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\designpatterns\behavioralpattern\chainofresponsibility" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\designpatterns\structuralpattern\flyweight" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\designpatterns\structuralpattern\facade" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\designpatterns\structuralpattern\decorator" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\designpatterns\structuralpattern\bridge\demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -90,13 +125,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (4)">
-    <configuration name="Cilent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.designpatterns.structuralpattern.facade.Cilent" />
+  <component name="RunManager" selected="Application.InterpreterPatternDemo">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.designpatterns.behavioralpattern.chainofresponsibility.demo.Client" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.designpatterns.structuralpattern.facade.*" />
+          <option name="PATTERN" value="base.designpatterns.behavioralpattern.chainofresponsibility.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.designpatterns.structuralpattern.proxy.Test" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.designpatterns.behavioralpattern.chainofresponsibility.Client" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.designpatterns.structuralpattern.proxy.*" />
+          <option name="PATTERN" value="base.designpatterns.behavioralpattern.chainofresponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.reflect.Test" />
+    <configuration name="CommandPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.designpatterns.behavioralpattern.command.CommandPatternDemo" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.reflect.*" />
+          <option name="PATTERN" value="base.designpatterns.behavioralpattern.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.designpatterns.structuralpattern.proxy.jdkproxy.Test" />
+    <configuration name="InterpreterPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.designpatterns.behavioralpattern.interpreter.InterpreterPatternDemo" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.designpatterns.structuralpattern.proxy.jdkproxy.*" />
+          <option name="PATTERN" value="base.designpatterns.behavioralpattern.interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.designpatterns.structuralpattern.proxy.cglib.Test" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.jvm.classload.Test" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.designpatterns.structuralpattern.proxy.cglib.*" />
+          <option name="PATTERN" value="base.jvm.classload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (3)" />
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Cilent" />
+        <item itemvalue="Application.InterpreterPatternDemo" />
+        <item itemvalue="Application.CommandPatternDemo" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +243,9 @@
       <workItem from="1575269713356" duration="22546000" />
       <workItem from="1575421153303" duration="6919000" />
       <workItem from="1575438323809" duration="17032000" />
-      <workItem from="1575528046969" duration="13776000" />
+      <workItem from="1575528046969" duration="22741000" />
+      <workItem from="1575621339741" duration="3069000" />
+      <workItem from="1575783146102" duration="4436000" />
     </task>
     <task id="LOCAL-00001" summary="数组第二天">
       <created>1573200305341</created>
