@@ -1,4 +1,4 @@
-package base.reflect;
+package base.jvm.classload.reflect;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

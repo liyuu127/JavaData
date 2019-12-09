@@ -1,4 +1,4 @@
-package base.reflect;
+package base.jvm.classload.reflect;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -31,7 +31,7 @@ public class Test {
     public static ReflectServicelmpl getReflectServicelmplInstance() {
         ReflectServicelmpl object = null;
         try {
-            object = (ReflectServicelmpl) Class.forName("base.reflect.ReflectServicelmpl").getConstructor(String.class).newInstance("参数");
+            object = (ReflectServicelmpl) Class.forName("base.jvm.classload.reflect.ReflectServicelmpl").getConstructor(String.class).newInstance("参数");
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
@@ -50,7 +50,7 @@ public class Test {
     public static Object reflectMethod() {
         Object returnObj = null;
         try {
-            ReflectServicelmpl reflectServicelmpl = (ReflectServicelmpl) Class.forName("base.reflect.ReflectServicelmpl").getConstructor(String.class).newInstance("参数");
+            ReflectServicelmpl reflectServicelmpl = (ReflectServicelmpl) Class.forName("base.jvm.classload.reflect.ReflectServicelmpl").getConstructor(String.class).newInstance("参数");
             Method sayHello = reflectServicelmpl.getClass().getMethod("sayHello", String.class);
             returnObj = sayHello.invoke(reflectServicelmpl, "liyu");
         } catch (InstantiationException e) {
