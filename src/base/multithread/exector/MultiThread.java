@@ -1,4 +1,4 @@
-package base.multithread;
+package base.multithread.exector;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;

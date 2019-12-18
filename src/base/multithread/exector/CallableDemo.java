@@ -1,4 +1,6 @@
-package base.multithread;
+package base.multithread.exector;
+
+import base.multithread.exector.MyCallable;
 
 import java.util.ArrayList;
 import java.util.Date;

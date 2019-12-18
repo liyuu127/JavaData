@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="委派模式">
-      <change afterPath="$PROJECT_DIR$/src/base/jvm/GC/DeadLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/jvm/GC/GCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/jvm/GC/ReferenceCountingGc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/jvm/GC/heapStructure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/jvm/GC/judgeObjectAlive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/jvm/GC/jvmStructure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/jvm/GC/reachabilityAnalysis.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/jvm/classload/classloader/ClassLoaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/jvm/classload/classloader/类加载调用顺序.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/jvm/classload/类加载.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/multithread/exector/线程执行时序.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/multithread/CallableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/exector/CallableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/multithread/MultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/exector/MultiThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/multithread/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/exector/MyCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/multithread/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/exector/MyRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/multithread/ThreadPoolExecutorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/exector/ThreadPoolExecutorDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,19 +75,19 @@
     <property name="settings.editor.selected.configurable" value="Lombok plugin" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\lib" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\leetCode\array\simple" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="base.io.nio" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\multithread\exector" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\jvm\classload\classloader" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\jvm\classload" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\jvm\GC" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\designpatterns\other\delegate" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\designpatterns\behavioralpattern\visitor" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="base.io.nio" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\lib" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\leetCode\array\simple" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -106,13 +102,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassLoaderDemo">
+  <component name="RunManager" selected="Application.CyclicBarrierExample3">
     <configuration name="ClassLoaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.jvm.classload.classloader.ClassLoaderDemo" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="base.jvm.classload.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicBarrierExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.multithread.lock.CyclicBarrierExample2" />
+      <module name="JavaData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.multithread.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicBarrierExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.multithread.lock.CyclicBarrierExample3" />
+      <module name="JavaData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.multithread.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.jvm.GC.GCTest" />
+    <configuration name="ThreadPoolExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.multithread.exector.ThreadPoolExecutorDemo" />
       <module name="JavaData" />
-      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.jvm.GC.*" />
+          <option name="PATTERN" value="base.multithread.exector.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,15 +169,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GCTest" />
       <item itemvalue="Application.DeadLockDemo" />
       <item itemvalue="Application.ClassLoaderDemo" />
+      <item itemvalue="Application.ThreadPoolExecutorDemo" />
+      <item itemvalue="Application.CyclicBarrierExample2" />
+      <item itemvalue="Application.CyclicBarrierExample3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicBarrierExample3" />
+        <item itemvalue="Application.CyclicBarrierExample2" />
+        <item itemvalue="Application.ThreadPoolExecutorDemo" />
         <item itemvalue="Application.ClassLoaderDemo" />
         <item itemvalue="Application.DeadLockDemo" />
-        <item itemvalue="Application.GCTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +234,8 @@
       <workItem from="1576026277455" duration="640000" />
       <workItem from="1576027800832" duration="5640000" />
       <workItem from="1576113769589" duration="6260000" />
+      <workItem from="1576202276464" duration="2051000" />
+      <workItem from="1576651611918" duration="3525000" />
     </task>
     <task id="LOCAL-00001" summary="数组第二天">
       <created>1573200305341</created>

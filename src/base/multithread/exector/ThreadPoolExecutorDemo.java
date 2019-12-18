@@ -1,4 +1,6 @@
-package base.multithread;
+package base.multithread.exector;
+
+import base.multithread.exector.MyRunnable;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
