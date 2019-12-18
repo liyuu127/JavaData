@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/multithread/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaData.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaData.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/asm-5.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cglib-3.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-lang-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gson-2.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/lombok-1.18.6.jar" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CyclicBarrierExample3">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="ClassLoaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.jvm.classload.classloader.ClassLoaderDemo" />
       <module name="JavaData" />
@@ -147,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.jvm.GC.DeadLockDemo" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.multithread.Test" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.jvm.GC.*" />
+          <option name="PATTERN" value="base.multithread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,19 +165,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DeadLockDemo" />
       <item itemvalue="Application.ClassLoaderDemo" />
       <item itemvalue="Application.ThreadPoolExecutorDemo" />
       <item itemvalue="Application.CyclicBarrierExample2" />
       <item itemvalue="Application.CyclicBarrierExample3" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.CyclicBarrierExample3" />
         <item itemvalue="Application.CyclicBarrierExample2" />
         <item itemvalue="Application.ThreadPoolExecutorDemo" />
         <item itemvalue="Application.ClassLoaderDemo" />
-        <item itemvalue="Application.DeadLockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +231,8 @@
       <workItem from="1576027800832" duration="5640000" />
       <workItem from="1576113769589" duration="6260000" />
       <workItem from="1576202276464" duration="2051000" />
-      <workItem from="1576651611918" duration="4185000" />
+      <workItem from="1576651611918" duration="4538000" />
+      <workItem from="1576657148304" duration="2058000" />
     </task>
     <task id="LOCAL-00001" summary="数组第二天">
       <created>1573200305341</created>
@@ -368,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576655844430</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="项目改为maven项目">
+      <created>1576656437936</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1576656437937</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +404,8 @@
     <MESSAGE value="设计模式学习:中介者模式，备忘录模式，观察者模式，状态模式，策略模式，模板方法模式，访问者模式" />
     <MESSAGE value="委派模式" />
     <MESSAGE value="添加线程池执行时序图" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加线程池执行时序图" />
+    <MESSAGE value="项目改为maven项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目改为maven项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
