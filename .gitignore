@@ -1,3 +1,5 @@
-bin/
-.idea/
+
+
 JavaData.iml
+target/
+.idea/
