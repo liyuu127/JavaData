@@ -7,8 +7,8 @@ package base.multithread;
  */
 public class Test {
 
-//    static boolean flag = false;
-    static volatile boolean flag = false;
+//    static volatile boolean flag = false;
+    static boolean flag = false;
 
     public static  void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(() -> {
@@ -21,7 +21,6 @@ public class Test {
         thread.sleep(2000);
         flag = true;
         System.out.println("flag1 = " + flag);
-//        thread.notify();
 
     }
 
