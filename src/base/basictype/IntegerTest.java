@@ -5,7 +5,7 @@ package base.basictype;
  * @date 2019/12/21 13:13
  * @description
  */
-public class Test {
+public class IntegerTest {
     public static void main(String[] args) {
 //        demo1();
 
