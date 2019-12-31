@@ -1,4 +1,4 @@
-package dataStructure.tree;
+package dataStructure.collection.tree;
 
 public class RBTreeNode<T extends Comparable<T>> {
     private T value;//node value

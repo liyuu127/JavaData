@@ -1,4 +1,4 @@
-package dataStructure.set;
+package dataStructure.collection.set;
 
 public class App {
     private String name;

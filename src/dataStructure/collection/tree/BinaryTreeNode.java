@@ -1,7 +1,6 @@
-package dataStructure.tree;
+package dataStructure.collection.tree;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.NoArgsConstructor;
 
 //用 递归节点实现法/左右链表示法 表示一个二叉树节点

@@ -1,4 +1,4 @@
-package dataStructure.tree;
+package dataStructure.collection.tree;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

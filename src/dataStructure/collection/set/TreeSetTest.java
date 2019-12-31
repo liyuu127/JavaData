@@ -1,8 +1,7 @@
-package dataStructure.set;
+package dataStructure.collection.set;
 
 import java.util.Iterator;
 import java.util.SortedSet;
-import java.util.Stack;
 import java.util.TreeSet;
 
 public class TreeSetTest {
