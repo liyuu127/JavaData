@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/sort/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/sort/sort.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/multithread/delayqueue/OrderDelay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/multithread/delayqueue/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/backtracking/BinaryString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/stringmatch/MatchSameChildString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/basictype/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/basictype/IntegerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/list/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collection/list/ArrayListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/list/LinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collection/list/LinkedListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/list/StackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collection/list/StackDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/map/HashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collection/map/HashMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/set/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collection/set/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/set/HashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collection/set/HashSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/set/TreeSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collection/set/TreeSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/set/set" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collection/set/set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collection/tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/tree/BinaryTreeArrayNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collection/tree/BinaryTreeArrayNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/tree/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collection/tree/BinaryTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/tree/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collection/tree/RBTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/tree/RBTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collection/tree/RBTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/tree/treeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collection/tree/treeTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,13 +100,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sort">
-    <configuration name="CyclicBarrierExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.multithread.lock.CyclicBarrierExample3" />
+  <component name="RunManager" selected="Application.MatchSameChildString">
+    <configuration name="BinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.backtracking.BinaryString" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.multithread.lock.*" />
+          <option name="PATTERN" value="algorithm.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.basictype.IntegerTest" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.recursion.Factorial" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.basictype.*" />
+          <option name="PATTERN" value="algorithm.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.sort.Sort" />
+    <configuration name="IsArrayInSortedOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.recursion.IsArrayInSortedOrder" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.sort.*" />
+          <option name="PATTERN" value="algorithm.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.multithread.delayqueue.Test" />
+    <configuration name="MatchSameChildString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.stringmatch.MatchSameChildString" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.multithread.delayqueue.*" />
+          <option name="PATTERN" value="algorithm.stringmatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.multithread.Test" />
+    <configuration name="TowersOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.recursion.TowersOfHanoi" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.multithread.*" />
+          <option name="PATTERN" value="algorithm.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,19 +167,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IntegerTest" />
-      <item itemvalue="Application.CyclicBarrierExample3" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Test (1)" />
-      <item itemvalue="Application.Sort" />
+      <item itemvalue="Application.Factorial" />
+      <item itemvalue="Application.TowersOfHanoi" />
+      <item itemvalue="Application.IsArrayInSortedOrder" />
+      <item itemvalue="Application.BinaryString" />
+      <item itemvalue="Application.MatchSameChildString" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.IntegerTest" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.CyclicBarrierExample3" />
+        <item itemvalue="Application.MatchSameChildString" />
+        <item itemvalue="Application.BinaryString" />
+        <item itemvalue="Application.IsArrayInSortedOrder" />
+        <item itemvalue="Application.TowersOfHanoi" />
+        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +239,8 @@
       <workItem from="1577181452421" duration="10243000" />
       <workItem from="1577439982381" duration="1380000" />
       <workItem from="1577667241338" duration="635000" />
-      <workItem from="1577689920580" duration="36621000" />
+      <workItem from="1577689920580" duration="38960000" />
+      <workItem from="1577927058097" duration="43765000" />
     </task>
     <task id="LOCAL-00001" summary="数组第二天">
       <created>1573200305341</created>
@@ -413,7 +396,49 @@
       <option name="project" value="LOCAL" />
       <updated>1577064041051</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="调整结构">
+      <created>1577786669513</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1577786669513</updated>
+    </task>
+    <task id="LOCAL-00024" summary="延时队列demo">
+      <created>1577786727038</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1577786727038</updated>
+    </task>
+    <task id="LOCAL-00025" summary="integer基础">
+      <created>1577786744480</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1577786744480</updated>
+    </task>
+    <task id="LOCAL-00026" summary="排序算法">
+      <created>1577786761872</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1577786761872</updated>
+    </task>
+    <task id="LOCAL-00027" summary="动态规划算法">
+      <created>1578020055444</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1578020055444</updated>
+    </task>
+    <task id="LOCAL-00028" summary="递归算法">
+      <created>1578035009353</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1578035009353</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +478,13 @@
     <MESSAGE value="项目改为maven项目" />
     <MESSAGE value="测试线程缓存" />
     <MESSAGE value="Integer的==和equals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integer的==和equals" />
+    <MESSAGE value="调整结构" />
+    <MESSAGE value="延时队列demo" />
+    <MESSAGE value="integer基础" />
+    <MESSAGE value="排序算法" />
+    <MESSAGE value="动态规划算法" />
+    <MESSAGE value="递归算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -475,6 +506,12 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="T.charAt(j)" />
+        <watch expression="P.charAt(j)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaData$GCTest.ic" NAME="GCTest Coverage Results" MODIFIED="1576044225950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
