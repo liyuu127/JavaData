@@ -12,7 +12,7 @@ public class Sort {
         int arr[] = new int[]{5, 2, 3, 7, 1, 2, 9, 8, 0, 4};
         System.out.println("排序前arr=" + Arrays.toString(arr));
 //        bubbleSort(arr);
-//        selectionSort(arr);
+        selectionSort(arr);
 //        insertionSort(arr);
 //        shellSort(arr);
 //        mergeSort(arr);
@@ -20,7 +20,7 @@ public class Sort {
 //        heapSort(arr);
 //        countSort(arr);
 //        bucketSort(arr);
-        radixSort(arr);
+//        radixSort(arr);
         System.out.println("排序后arr=" + Arrays.toString(arr));
 
     }
@@ -62,7 +62,7 @@ public class Sort {
             // 寻找[i, n)区间里的最小值的索引
             int minIndex = i;
             for (int j = i + 1; j < arr.length; j++) {
-                if (arr[i] > arr[j]) {
+                if (arr[minIndex] > arr[j]) {
                     minIndex = j;
                 }
             }
@@ -88,7 +88,6 @@ public class Sort {
 //                }
 //            }
 //        }
-
         // 改进版插入排序（减少了数组元素的操作次数
         for (int i = 0; i < arr.length; i++) {
             int e = arr[i];
@@ -543,9 +542,9 @@ public class Sort {
         int dev = 1;
         int maxDigit = getMaxDigit(arr);
 
-         for (int i = 0; i < maxDigit; i++, dev *= 10, mod *= 10) {
+        for (int i = 0; i < maxDigit; i++, dev *= 10, mod *= 10) {
             // 考虑负数的情况，这里扩展一倍队列数，其中 [0-9]对应负数，[10-19]对应正数 (bucket + 10)
-            int[][] counter =  new int[mod * 2][0];
+            int[][] counter = new int[mod * 2][0];
 
             for (int j = 0; j < arr.length; j++) {
                 int bucket = ((arr[j] % mod) / dev) + mod;
