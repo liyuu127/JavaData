@@ -1,5 +1,8 @@
 package nowcodercourse.zuocy.basic.class_04;
 
+/**
+ * 判断一颗二叉树是否是平衡二叉树
+ */
 public class Code_06_IsBalancedTree {
 
 	public static class Node {

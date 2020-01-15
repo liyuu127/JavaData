@@ -4,6 +4,11 @@ import java.util.Arrays;
 
 public class Code_11_MaxGap {
 
+	/**
+	 * 返回排序后最大两个相邻差值
+	 * @param nums
+	 * @return
+	 */
 	public static int maxGap(int[] nums) {
 		if (nums == null || nums.length < 2) {
 			return 0;

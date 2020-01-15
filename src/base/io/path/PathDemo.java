@@ -21,7 +21,7 @@ public class PathDemo {
 //        demo1();
 
         //File和Path之间的转换，File和URI之间的转换
-//        demo2();
+        demo2();
 
 //        检查给定的Path在文件系统中是否存在
 //        demo3();
@@ -43,7 +43,7 @@ public class PathDemo {
 //        demo8();
 
         //遍历整个文件目录
-        demo9();
+//        demo9();
 
     }
 

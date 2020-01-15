@@ -2,6 +2,9 @@ package nowcodercourse.zuocy.basic.class_03;
 
 import java.util.Stack;
 
+/**
+ * 在实现栈的基础上提供返回最小值的方法，常数操作时间
+ */
 public class Code_02_GetMinStack {
 	public static class MyStack1 {
 		private Stack<Integer> stackData;

@@ -1,5 +1,8 @@
 package nowcodercourse.zuocy.basic.class_03;
 
+/**
+ * 数组实现固定大小的队列和栈
+ */
 public class Code_01_Array_To_Stack_Queue {
 
 	public static class ArrayStack {
@@ -14,6 +17,10 @@ public class Code_01_Array_To_Stack_Queue {
 			size = 0;
 		}
 
+		/**
+		 * 返回栈顶
+		 * @return
+		 */
 		public Integer peek() {
 			if (size == 0) {
 				return null;
@@ -21,6 +28,10 @@ public class Code_01_Array_To_Stack_Queue {
 			return arr[size - 1];
 		}
 
+		/**
+		 * 入栈
+		 * @param obj
+		 */
 		public void push(int obj) {
 			if (size == arr.length) {
 				throw new ArrayIndexOutOfBoundsException("The queue is full");
@@ -28,6 +39,10 @@ public class Code_01_Array_To_Stack_Queue {
 			arr[size++] = obj;
 		}
 
+		/**
+		 * 出栈
+		 * @return
+		 */
 		public Integer pop() {
 			if (size == 0) {
 				throw new ArrayIndexOutOfBoundsException("The queue is empty");

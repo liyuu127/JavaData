@@ -1,5 +1,8 @@
 package nowcodercourse.zuocy.basic.class_04;
 
+/**
+ * 直观打印二叉树
+ */
 public class Code_02_PrintBinaryTree {
 
 	public static class Node {

@@ -3,6 +3,9 @@ package nowcodercourse.zuocy.basic.class_04;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * 二叉树的序列化和反序列化
+ */
 public class Code_04_SerializeAndReconstructTree {
 
 	public static class Node {

@@ -1,7 +1,10 @@
 package nowcodercourse.zuocy.basic.class_04;
 
 import java.util.Stack;
-
+/**
+ * 二叉树遍历
+ * 递归形式，非递归形式
+ */
 public class Code_01_PreInPosTraversal {
 
 	public static class Node {
@@ -41,6 +44,11 @@ public class Code_01_PreInPosTraversal {
 		System.out.print(head.value + " ");
 	}
 
+	/**
+	 * 先序遍历
+	 * 非递归形式
+	 * @param head
+	 */
 	public static void preOrderUnRecur(Node head) {
 		System.out.print("pre-order: ");
 		if (head != null) {
@@ -78,11 +86,16 @@ public class Code_01_PreInPosTraversal {
 		System.out.println();
 	}
 
+	/**
+	 * 后序遍历
+	 * 2个栈实现
+	 * @param head
+	 */
 	public static void posOrderUnRecur1(Node head) {
 		System.out.print("pos-order: ");
 		if (head != null) {
-			Stack<Node> s1 = new Stack<Node>();
-			Stack<Node> s2 = new Stack<Node>();
+			Stack<Node> s1 = new Stack<>();
+			Stack<Node> s2 = new Stack<>();
 			s1.push(head);
 			while (!s1.isEmpty()) {
 				head = s1.pop();
@@ -101,6 +114,11 @@ public class Code_01_PreInPosTraversal {
 		System.out.println();
 	}
 
+	/**
+	 * 后序遍历
+	 * 单栈
+	 * @param h
+	 */
 	public static void posOrderUnRecur2(Node h) {
 		System.out.print("pos-order: ");
 		if (h != null) {

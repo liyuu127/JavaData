@@ -4,6 +4,10 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
+/**
+ * 用队列实现栈
+ * 用栈实现队列
+ */
 public class Code_03_StackAndQueueConvert {
 
 	public static class TwoStacksQueue {
