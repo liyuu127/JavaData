@@ -11,10 +11,10 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ListNode {
-    private int data;
+    private Integer data;
     private ListNode next;
 
-    public ListNode(int data) {
+    public ListNode(Integer data) {
         this.data = data;
     }
 }

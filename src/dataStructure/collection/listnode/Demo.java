@@ -1,7 +1,6 @@
 package dataStructure.collection.listnode;
 
 import lombok.experimental.UtilityClass;
-import org.w3c.dom.ls.LSException;
 
 /**
  * @author liyu
