@@ -2,6 +2,7 @@ package dataStructure.collection.stack;
 
 import lombok.experimental.UtilityClass;
 
+import java.util.Arrays;
 import java.util.Stack;
 
 /**
@@ -14,7 +15,12 @@ public class Demo {
     public static void main(String[] args) {
 
         //测试栈的反转
-        testStackReverse();
+//        testStackReverse();
+
+//        int[] intPutArray=new int[]{6,1,3,5,3};
+//        int[] ints = findingSpans(intPutArray);
+//        System.out.println("Arrays.toString(ints) = " + Arrays.toString(ints));
+
 
     }
 
@@ -53,5 +59,31 @@ public class Demo {
         insertAtBottom(stack, data);
         stack.push(temp);
     }
+
+    /**
+     * 计算跨度
+     * 给定数组A,A[i]的跨度S[i]定义为：满足A[j]<=A[j+1]且在A[i]之前的连续元素A[j]的最大个数
+     * 迭代法
+     * O(n2)
+     * O(1)
+     *
+     * @param intPutArray
+     * @return
+     */
+    public int[] findingSpans(int[] intPutArray) {
+        int[] spans = new int[intPutArray.length];
+        for (int i = 0; i < intPutArray.length; i++) {
+            int index = i - 1;
+            int span = 1;
+            while (index >= 0 && intPutArray[index] <= intPutArray[index + 1]) {
+                span++;
+                index--;
+            }
+            spans[i] = span;
+        }
+        return spans;
+    }
+
+
 
 }
