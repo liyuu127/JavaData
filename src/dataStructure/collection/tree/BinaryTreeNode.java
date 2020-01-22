@@ -1,47 +1,27 @@
 package dataStructure.collection.tree;
 
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+import lombok.Data;
 
 //用 递归节点实现法/左右链表示法 表示一个二叉树节点
-@AllArgsConstructor
-@NoArgsConstructor
+@Data
 public class BinaryTreeNode {
     /*
      * 一个二叉树包括 数据、左右孩子 三部分
      */
-    private int Data;
+    private int data;
     private BinaryTreeNode LeftChild;
     private BinaryTreeNode RightChild;
 
-    public int getData() {
-        return Data;
+    public BinaryTreeNode(int data) {
+        this.data = data;
     }
 
-    public void setData(int data) {
-        Data = data;
+    public BinaryTreeNode() {
     }
 
-    public BinaryTreeNode getLeftChild() {
-        return LeftChild;
-    }
-
-    public void setLeftChild(BinaryTreeNode leftChild) {
-        LeftChild = leftChild;
-    }
-
-    public BinaryTreeNode getRightChild() {
-        return RightChild;
-    }
-
-    public void setRightChild(BinaryTreeNode rightChild) {
-        RightChild = rightChild;
-    }
-
-    @Override
     public String toString() {
         return "BinaryTreeNode{" +
-                "Data=" + Data +
+                "Data=" + data +
                 ", LeftChild=" + LeftChild +
                 ", RightChild=" + RightChild +
                 '}';
