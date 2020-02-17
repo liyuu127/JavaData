@@ -208,6 +208,19 @@ public class Demo {
         return treeNode;
     }
 
+    /**
+     * LCA
+     * 查找二叉树中结点最接近的公共祖先
+     * @param root
+     * @param nodeA
+     * @param nodeB
+     * @return
+     */
+    public BinaryTreeNode LCA(BinaryTreeNode root, BinaryTreeNode nodeA,BinaryTreeNode nodeB) {
+
+        return new BinaryTreeNode();
+
+    }
 
     /**
      * 返回中序遍历数组的指定元素
