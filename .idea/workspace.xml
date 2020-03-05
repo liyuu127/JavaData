@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/multithread/exector/ThreadPoolExecutorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/exector/ThreadPoolExecutorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -272,7 +271,7 @@
       <workItem from="1581927336263" duration="40000" />
       <workItem from="1583369562587" duration="6100000" />
       <workItem from="1583394260894" duration="54000" />
-      <workItem from="1583398994768" duration="2650000" />
+      <workItem from="1583398994768" duration="2754000" />
     </task>
     <task id="LOCAL-00001" summary="数组第二天">
       <created>1573200305341</created>
@@ -568,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583400667466</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="线程池拒绝策略整理">
+      <created>1583402535164</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1583402535164</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +595,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="设计模式学习:责任链模式，命令模式，解释器模式，迭代器模式" />
     <MESSAGE value="设计模式学习:中介者模式，备忘录模式，观察者模式，状态模式，策略模式，模板方法模式，访问者模式" />
     <MESSAGE value="委派模式" />
     <MESSAGE value="添加线程池执行时序图" />
@@ -614,7 +619,8 @@
     <MESSAGE value="二叉树学习" />
     <MESSAGE value="." />
     <MESSAGE value="synchronized和volatile关键字，threadLocal学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="synchronized和volatile关键字，threadLocal学习" />
+    <MESSAGE value="线程池拒绝策略整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程池拒绝策略整理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
