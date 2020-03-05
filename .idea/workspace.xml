@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/backtracking/BinaryString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/stringmatch/MatchSameChildString.java" afterDir="false" />
+    <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="牛客左程云源码">
+      <change afterPath="$PROJECT_DIR$/src/base/multithread/basic/DeadLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/multithread/basic/SynchronizedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/multithread/basic/ThreadLocalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/multithread/basic/VolatileDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/multithread/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/basic/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/multithread/exector/ThreadPoolExecutorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/exector/ThreadPoolExecutorDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +17,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="241" />
+    <option name="myElementSize" value="271" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -62,30 +80,33 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/algorithm/sort" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../partymemberInformationManagement" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\algorithm\sort" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\lib" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\leetCode\array\simple" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="base.io.nio" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\basic\class_04" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\multithread\exector" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\jvm\classload\classloader" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\jvm\classload" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\jvm\GC" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\designpatterns\other\delegate" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dataStructure.collection.listnode" />
+      <recent name="base.io.nio" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\basic" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\advanced" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\day01" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\algorithm\sort" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -100,13 +121,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MatchSameChildString">
-    <configuration name="BinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.backtracking.BinaryString" />
+  <component name="RunManager" selected="Application.DeadLockDemo">
+    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.multithread.basic.DeadLockDemo" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.backtracking.*" />
+          <option name="PATTERN" value="base.multithread.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.recursion.Factorial" />
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.collection.stack.Demo" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.recursion.*" />
+          <option name="PATTERN" value="dataStructure.collection.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsArrayInSortedOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.recursion.IsArrayInSortedOrder" />
+    <configuration name="Demo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.collection.tree.Demo" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.recursion.*" />
+          <option name="PATTERN" value="dataStructure.collection.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatchSameChildString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.stringmatch.MatchSameChildString" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.collection.listnode.Demo" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.stringmatch.*" />
+          <option name="PATTERN" value="dataStructure.collection.listnode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TowersOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.recursion.TowersOfHanoi" />
+    <configuration name="Text" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.collection.queue.Text" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.recursion.*" />
+          <option name="PATTERN" value="dataStructure.collection.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,19 +188,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Factorial" />
-      <item itemvalue="Application.TowersOfHanoi" />
-      <item itemvalue="Application.IsArrayInSortedOrder" />
-      <item itemvalue="Application.BinaryString" />
-      <item itemvalue="Application.MatchSameChildString" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.Demo (1)" />
+      <item itemvalue="Application.Text" />
+      <item itemvalue="Application.Demo (2)" />
+      <item itemvalue="Application.DeadLockDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MatchSameChildString" />
-        <item itemvalue="Application.BinaryString" />
-        <item itemvalue="Application.IsArrayInSortedOrder" />
-        <item itemvalue="Application.TowersOfHanoi" />
-        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.DeadLockDemo" />
+        <item itemvalue="Application.Demo (2)" />
+        <item itemvalue="Application.Text" />
+        <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +261,23 @@
       <workItem from="1577439982381" duration="1380000" />
       <workItem from="1577667241338" duration="635000" />
       <workItem from="1577689920580" duration="38960000" />
-      <workItem from="1577927058097" duration="43765000" />
+      <workItem from="1577927058097" duration="43900000" />
+      <workItem from="1578271689902" duration="35843000" />
+      <workItem from="1578447663230" duration="4887000" />
+      <workItem from="1578466314875" duration="28580000" />
+      <workItem from="1578876582908" duration="45000" />
+      <workItem from="1578876658038" duration="26764000" />
+      <workItem from="1578996168090" duration="69655000" />
+      <workItem from="1579394831683" duration="4594000" />
+      <workItem from="1579416423620" duration="751000" />
+      <workItem from="1579499894079" duration="11966000" />
+      <workItem from="1579567505375" duration="30866000" />
+      <workItem from="1581903534083" duration="1285000" />
+      <workItem from="1581927193289" duration="125000" />
+      <workItem from="1581927336263" duration="40000" />
+      <workItem from="1583369562587" duration="6100000" />
+      <workItem from="1583394260894" duration="54000" />
+      <workItem from="1583398994768" duration="621000" />
     </task>
     <task id="LOCAL-00001" summary="数组第二天">
       <created>1573200305341</created>
@@ -438,7 +475,98 @@
       <option name="project" value="LOCAL" />
       <updated>1578035009353</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="回溯">
+      <created>1578047615392</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1578047615392</updated>
+    </task>
+    <task id="LOCAL-00030" summary="字符串匹配">
+      <created>1578047643118</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1578047643118</updated>
+    </task>
+    <task id="LOCAL-00031" summary="KMP算法">
+      <created>1578293842728</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1578293842728</updated>
+    </task>
+    <task id="LOCAL-00032" summary="赫夫曼编码">
+      <created>1578359099522</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1578359099522</updated>
+    </task>
+    <task id="LOCAL-00033" summary="牛客左程云初级班源码">
+      <created>1578368426899</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1578368426899</updated>
+    </task>
+    <task id="LOCAL-00034" summary="牛客左程云源码">
+      <created>1578392232371</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1578392232371</updated>
+    </task>
+    <task id="LOCAL-00035" summary="选择排序修改">
+      <created>1578392272996</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1578392272996</updated>
+    </task>
+    <task id="LOCAL-00036" summary="链表学习">
+      <created>1579089401434</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1579089401435</updated>
+    </task>
+    <task id="LOCAL-00037" summary="牛客左程云源码">
+      <created>1579089428101</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1579089428101</updated>
+    </task>
+    <task id="LOCAL-00038" summary="链表学习">
+      <created>1579241347864</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1579241347864</updated>
+    </task>
+    <task id="LOCAL-00039" summary="队列学习">
+      <created>1579510155305</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1579510155305</updated>
+    </task>
+    <task id="LOCAL-00040" summary="二叉树学习">
+      <created>1579663248683</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1579663248683</updated>
+    </task>
+    <task id="LOCAL-00041" summary=".">
+      <created>1581927369727</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1581927369727</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,17 +587,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="数组第二天" />
-    <MESSAGE value="数组第三天" />
-    <MESSAGE value="数组第四天" />
-    <MESSAGE value="数组第五天" />
-    <MESSAGE value="多线程学习" />
-    <MESSAGE value="乐观锁实现的几种方式" />
-    <MESSAGE value="原子类操作" />
-    <MESSAGE value="CountDownLatch倒计时器和CyclicBarrier循环栅栏" />
-    <MESSAGE value="io" />
-    <MESSAGE value="java8时间新特性学习" />
-    <MESSAGE value="设计模式学习:单例模式，抽象工厂，建造者，简单工厂" />
     <MESSAGE value="设计模式学习:原型模式，适配器模式，桥接模式，组合模式，装饰者模式，门面模式，享元模式，代理模式" />
     <MESSAGE value="设计模式学习:责任链模式，命令模式，解释器模式，迭代器模式" />
     <MESSAGE value="设计模式学习:中介者模式，备忘录模式，观察者模式，状态模式，策略模式，模板方法模式，访问者模式" />
@@ -484,7 +601,18 @@
     <MESSAGE value="排序算法" />
     <MESSAGE value="动态规划算法" />
     <MESSAGE value="递归算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="递归算法" />
+    <MESSAGE value="回溯" />
+    <MESSAGE value="字符串匹配" />
+    <MESSAGE value="KMP算法" />
+    <MESSAGE value="赫夫曼编码" />
+    <MESSAGE value="牛客左程云初级班源码" />
+    <MESSAGE value="选择排序修改" />
+    <MESSAGE value="牛客左程云源码" />
+    <MESSAGE value="链表学习" />
+    <MESSAGE value="队列学习" />
+    <MESSAGE value="二叉树学习" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -506,14 +634,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="T.charAt(j)" />
-        <watch expression="P.charAt(j)" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaData$Demo__2_.ic" NAME="Demo (2) Coverage Results" MODIFIED="1579659671464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>dataStructure.collection.tree.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/JavaData$GCTest.ic" NAME="GCTest Coverage Results" MODIFIED="1576044225950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>base.jvm.GC.*</FILTER>
     </SUITE>

@@ -9,7 +9,13 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author liyu
  * @date 2019/11/24 17:06
- * @description 使用 ThreadPoolExecutor 构造函数自定义参数的方式来创建线程池
+ * @description 使用线程池的好处：
+ * <p>
+ * 降低资源消耗。通过重复利用已创建的线程降低线程创建和销毁造成的消耗。
+ * 提高响应速度。当任务到达时，任务可以不需要的等到线程创建就能立即执行。
+ * 提高线程的可管理性。线程是稀缺资源，如果无限制的创建，不仅会消耗系统资源，还会降低系统的稳定性，使用线程池可以进行统一的分配，调优和监控。
+ * <p>
+ * 使用 ThreadPoolExecutor 构造函数自定义参数的方式来创建线程池
  * corePoolSize: 核心线程数为 5。
  * maximumPoolSize ：最大线程数 10
  * keepAliveTime : 等待时间为 1L。
