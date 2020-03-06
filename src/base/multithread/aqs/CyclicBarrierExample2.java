@@ -1,4 +1,4 @@
-package base.multithread.lock;
+package base.multithread.aqs;
 
 import java.util.concurrent.*;
 

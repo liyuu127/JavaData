@@ -1,4 +1,4 @@
-package base.multithread.lock;
+package base.multithread.aqs;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
@@ -8,7 +8,8 @@ import java.util.concurrent.Executors;
 /**
  * @author liyu
  * @date 2019/11/26 10:50
- * @description CyclicBarrier还提供一个更高级的构造函数CyclicBarrier(int parties, Runnable barrierAction)，用于在线程到达屏障时，优先执行barrierAction，方便处理更复杂的业务场景。示例代码如下
+ * @description CyclicBarrier还提供一个更高级的构造函数CyclicBarrier(int parties, Runnable barrierAction)，
+ * 用于在线程到达屏障时，优先执行barrierAction，方便处理更复杂的业务场景。示例代码如下
  */
 public class CyclicBarrierExample3 {
 

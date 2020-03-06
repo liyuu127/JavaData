@@ -1,11 +1,14 @@
-package base.multithread.lock;
+package base.multithread.aqs;
 
 import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
 
 /**
  * @author liyu
  * @date 2019/11/25 14:17
- * @description CLH锁是一种基于链表的可扩展、高性能、公平的自旋锁，申请线程只在本地变量上自旋，它不断轮询前驱的状态，如果发现前驱释放了锁就结束自旋，获得锁。
+ * @description
+ * AQS 核心思想是，如果被请求的共享资源空闲，则将当前请求资源的线程设置为有效的工作线程，并且将共享资源设置为锁定状态。
+ * 如果被请求的共享资源被占用，那么就需要一套线程阻塞等待以及被唤醒时锁分配的机制，这个机制 AQS 是用 CLH 队列锁实现的，即将暂时获取不到锁的线程加入到队列中。
+ * CLH锁是一种基于链表的可扩展、高性能、公平的自旋锁，申请线程只在本地变量上自旋，它不断轮询前驱的状态，如果发现前驱释放了锁就结束自旋，获得锁。
  * CLH的发明人是：Craig，Landin and Hagersten
  */
 public class CLHLock {

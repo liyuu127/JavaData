@@ -1,4 +1,4 @@
-package base.multithread.lock;
+package base.multithread.aqs;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
@@ -36,6 +36,25 @@ public class CountDownLatchExample1 {
 
             });
         }
+        new Thread(()->{
+            try {
+                countDownLatch.await();
+                Thread.sleep(5000L);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println(Thread.currentThread()+"finish");
+        },"1").start();
+        new Thread(()->{
+            try {
+                countDownLatch.await();
+                Thread.sleep(6000L);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println(Thread.currentThread()+"finish");
+        },"2").start();
+
         countDownLatch.await();
         threadPool.shutdown();
         System.out.println("finish");

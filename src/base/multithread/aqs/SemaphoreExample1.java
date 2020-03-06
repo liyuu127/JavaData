@@ -1,4 +1,4 @@
-package base.multithread.lock;
+package base.multithread.aqs;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -39,8 +39,8 @@ public class SemaphoreExample1 {
     }
 
     public static void test(int threadnum) throws InterruptedException {
-        Thread.sleep(1000);// 模拟请求的耗时操作
+        Thread.sleep(10000);// 模拟请求的耗时操作
         System.out.println("threadnum:" + threadnum);
-        Thread.sleep(1000);// 模拟请求的耗时操作
+        Thread.sleep(10000);// 模拟请求的耗时操作
     }
 }

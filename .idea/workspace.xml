@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/multithread/exector/ThreadPoolExecutorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/exector/ThreadPoolExecutorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/multithread/lock/CLHLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/aqs/CLHLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/multithread/lock/CountDownLatchExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/aqs/CountDownLatchExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/multithread/lock/CyclicBarrierExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/aqs/CyclicBarrierExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/multithread/lock/CyclicBarrierExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/aqs/CyclicBarrierExample3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/multithread/lock/ReentrantSpinLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/lock/ReentrantSpinLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/multithread/lock/SemaphoreExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/aqs/SemaphoreExample1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,23 +91,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\basic\class_04" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\multithread\exector" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\jvm\classload\classloader" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\jvm\classload" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\jvm\GC" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="dataStructure.collection.listnode" />
-      <recent name="base.io.nio" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\basic" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\advanced" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\day01" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\algorithm\sort" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="base.multithread.aqs" />
+      <recent name="dataStructure.collection.listnode" />
+      <recent name="base.io.nio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\basic\class_04" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\multithread\exector" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\jvm\classload\classloader" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\jvm\classload" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\jvm\GC" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -115,13 +123,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeadLockDemo">
-    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.multithread.basic.DeadLockDemo" />
+  <component name="RunManager" selected="Application.CyclicBarrierExample3">
+    <configuration name="CountDownLatchExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.multithread.aqs.CountDownLatchExample1" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.multithread.basic.*" />
+          <option name="PATTERN" value="base.multithread.aqs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +137,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.collection.stack.Demo" />
+    <configuration name="CyclicBarrierExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.multithread.aqs.CyclicBarrierExample3" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.collection.stack.*" />
+          <option name="PATTERN" value="base.multithread.aqs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.multithread.basic.DeadLockDemo" />
+      <module name="JavaData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.multithread.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,25 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.collection.listnode.Demo" />
+    <configuration name="SemaphoreExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.multithread.aqs.SemaphoreExample1" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.collection.listnode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Text" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.collection.queue.Text" />
-      <module name="JavaData" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructure.collection.queue.*" />
+          <option name="PATTERN" value="base.multithread.aqs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,19 +190,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo" />
-      <item itemvalue="Application.Demo (1)" />
-      <item itemvalue="Application.Text" />
       <item itemvalue="Application.Demo (2)" />
       <item itemvalue="Application.DeadLockDemo" />
+      <item itemvalue="Application.SemaphoreExample1" />
+      <item itemvalue="Application.CountDownLatchExample1" />
+      <item itemvalue="Application.CyclicBarrierExample3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicBarrierExample3" />
+        <item itemvalue="Application.CountDownLatchExample1" />
+        <item itemvalue="Application.SemaphoreExample1" />
         <item itemvalue="Application.DeadLockDemo" />
         <item itemvalue="Application.Demo (2)" />
-        <item itemvalue="Application.Text" />
-        <item itemvalue="Application.Demo (1)" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +279,8 @@
       <workItem from="1581927336263" duration="40000" />
       <workItem from="1583369562587" duration="6100000" />
       <workItem from="1583394260894" duration="54000" />
-      <workItem from="1583398994768" duration="2754000" />
+      <workItem from="1583398994768" duration="2786000" />
+      <workItem from="1583455442183" duration="13014000" />
     </task>
     <task id="LOCAL-00001" summary="数组第二天">
       <created>1573200305341</created>
@@ -574,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583402535164</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary=" .">
+      <created>1583402626069</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1583402626069</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +611,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="设计模式学习:中介者模式，备忘录模式，观察者模式，状态模式，策略模式，模板方法模式，访问者模式" />
     <MESSAGE value="委派模式" />
     <MESSAGE value="添加线程池执行时序图" />
     <MESSAGE value="项目改为maven项目" />
@@ -620,7 +635,8 @@
     <MESSAGE value="." />
     <MESSAGE value="synchronized和volatile关键字，threadLocal学习" />
     <MESSAGE value="线程池拒绝策略整理" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程池拒绝策略整理" />
+    <MESSAGE value=" ." />
+    <option name="LAST_COMMIT_MESSAGE" value=" ." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * @description 可重入的自旋锁
  */
 public class ReentrantSpinLock {
-    private AtomicReference<Thread> cas = new AtomicReference<Thread>();
+    private AtomicReference<Thread> cas = new AtomicReference<>();
     private int count;
     public void lock() {
         Thread current = Thread.currentThread();
