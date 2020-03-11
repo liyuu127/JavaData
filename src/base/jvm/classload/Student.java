@@ -6,11 +6,8 @@ package base.jvm.classload;
  * @description
  */
 public class Student extends Person{
-    private static  Integer b;
     static {
         System.out.println("Student.我是子类静态块，优先于构造块执行！ 并且只有创建第一个对象的时候执行一次！");
-        Teacher teacher = new Teacher();
-        b=teacher.a;
     }
 
     {

@@ -15,6 +15,7 @@ public class IOServer {
         // TODO 服务端处理客户端连接请求
         ServerSocket serverSocket = new ServerSocket(3333);
 
+        //独立的 Acceptor 线程负责监听客户端的连接
         // 接收到客户端连接请求之后为每个客户端创建一个新的线程进行链路处理
         new Thread(() -> {
             while (true) {

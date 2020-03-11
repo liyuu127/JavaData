@@ -11,4 +11,5 @@ package base.multithread.basic;
  * 4.volatile关键字主要用于解决变量在多个线程之间的可见性，而 synchronized关键字解决的是多个线程之间访问资源的同步性。
  */
 public class VolatileDemo {
+
 }
