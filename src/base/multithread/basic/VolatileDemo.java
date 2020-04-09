@@ -10,6 +10,6 @@ package base.multithread.basic;
  * 3.volatile关键字能保证数据的可见性，但不能保证数据的原子性。synchronized关键字两者都能保证。
  * 4.volatile关键字主要用于解决变量在多个线程之间的可见性，而 synchronized关键字解决的是多个线程之间访问资源的同步性。
  */
-public class VolatileDemo {
-
-}
+//public class VolatileDemo {
+//
+//}

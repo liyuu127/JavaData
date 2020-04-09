@@ -27,7 +27,7 @@ public class Demo {
 //         testInsertSortedList();
 
         //测试链表反转
-//        testReverseList();
+        testReverseList();
 
         //测试查找链表相交结点
 //        testIntersectingNode();
@@ -39,7 +39,7 @@ public class Demo {
 //        testMergeList();
 
         //测试成对逆置链表
-//        testReversePairList();
+        testReversePairList();
 
         //测试约瑟夫环
         int josephusPosition = getJosephusPosition(5, 5);
