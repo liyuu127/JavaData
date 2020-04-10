@@ -1,5 +1,7 @@
 package leetCode.array.simple;
 
+import lombok.experimental.UtilityClass;
+
 import java.util.Arrays;
 import java.util.Stack;
 
@@ -23,19 +25,25 @@ import java.util.Stack;
  * 输入字符串可以在前面或者后面包含多余的空格，但是反转后的字符不能包括。
  * 如果两个单词间有多余的空格，将反转后单词间的空格减少到只含一个。
  */
+@UtilityClass
 public class ReverseWords {
     public static void main(String[] args) {
-        String s= "     hello world!  ";
-        int c = s.charAt(0);
-        int c1 = s.charAt(2);
-        System.out.println("c = " + c);
-        System.out.println("c1 = " + c1);
-        String[] s1 = s.split(" ");
-        System.out.println("s1 = " + Arrays.toString(s1));
+        String s = "a good   example";
+        String s1 = reverseWords(s);
+        System.out.println("s1 = " +s1);
     }
 
     public String reverseWords(String s) {
-
-        return s;
+        s = s.trim();
+        String[] c = s.split("\\s+");
+        if (c.length < 2) {
+            return s;
+        }
+        StringBuffer bf = new StringBuffer();
+        for (int i = c.length - 1; i > 0; i--) {
+            bf.append(c[i]+" ");
+        }
+        bf.append(c[0]);
+        return bf.toString();
     }
 }
