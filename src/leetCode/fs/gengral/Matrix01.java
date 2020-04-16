@@ -1,4 +1,4 @@
-package leetCode.array.general;
+package leetCode.fs.gengral;
 
 import java.util.LinkedList;
 import java.util.Queue;
