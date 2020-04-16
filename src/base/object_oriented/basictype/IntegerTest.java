@@ -1,4 +1,4 @@
-package base.basictype;
+package base.object_oriented.basictype;
 
 /**
  * @author liyu
