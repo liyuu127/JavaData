@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab68978-b188-4d80-8d5d-17ce37964b10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCode/array/simple/ReverseString2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCode/other/Twitter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/io/bio/IOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/io/bio/IOServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/io/nio/IOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/io/nio/IOClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/jvm/classload/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/jvm/classload/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/jvm/classload/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/jvm/classload/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/multithread/basic/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/multithread/basic/VolatileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/basictype/IntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/object_oriented/basictype/IntegerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="271" />
+    <option name="myElementSize" value="294" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -90,24 +86,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\basic" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\advanced" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\day01" />
-      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\algorithm\sort" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="base.multithread.aqs" />
-      <recent name="dataStructure.collection.listnode" />
-      <recent name="base.io.nio" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\basic\class_04" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\multithread\exector" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\jvm\classload\classloader" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\jvm\classload" />
       <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\base\jvm\GC" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="base.multithread.aqs" />
+      <recent name="dataStructure.collection.listnode" />
+      <recent name="base.io.nio" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\basic" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\advanced" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\nowcodercourse\zuocy\day01" />
+      <recent name="D:\javaWorkplace\gitDesktopWorkplace\JavaData\src\algorithm\sort" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -122,13 +118,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VolatileDemo">
-    <configuration name="CountDownLatchExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.multithread.aqs.CountDownLatchExample1" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.backtracking.gen.GenerateParentheses" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.multithread.aqs.*" />
+          <option name="PATTERN" value="leetCode.backtracking.gen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrierExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.multithread.aqs.CyclicBarrierExample3" />
+    <configuration name="JiQiRenDeYunDongFanWeiLcof" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.fs.gengral.JiQiRenDeYunDongFanWeiLcof" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.multithread.aqs.*" />
+          <option name="PATTERN" value="leetCode.fs.gengral.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +145,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.multithread.aqs.SemaphoreExample1" />
+    <configuration name="Matrix01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.array.general.Matrix01" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.multithread.aqs.*" />
+          <option name="PATTERN" value="leetCode.array.general.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.array.simple.ReverseWords" />
+      <module name="JavaData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCode.array.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,24 +172,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.jvm.classload.Test" />
+      <option name="MAIN_CLASS_NAME" value="base.object_oriented.generic.Test" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.jvm.classload.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.multithread.basic.VolatileDemo" />
-      <module name="JavaData" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.multithread.basic.*" />
+          <option name="PATTERN" value="base.object_oriented.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,19 +185,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SemaphoreExample1" />
-      <item itemvalue="Application.CountDownLatchExample1" />
-      <item itemvalue="Application.CyclicBarrierExample3" />
+      <item itemvalue="Application.JiQiRenDeYunDongFanWeiLcof" />
+      <item itemvalue="Application.GenerateParentheses" />
+      <item itemvalue="Application.ReverseWords" />
+      <item itemvalue="Application.Matrix01" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.VolatileDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VolatileDemo" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.CyclicBarrierExample3" />
-        <item itemvalue="Application.CountDownLatchExample1" />
-        <item itemvalue="Application.SemaphoreExample1" />
+        <item itemvalue="Application.Matrix01" />
+        <item itemvalue="Application.ReverseWords" />
+        <item itemvalue="Application.GenerateParentheses" />
+        <item itemvalue="Application.JiQiRenDeYunDongFanWeiLcof" />
       </list>
     </recent_temporary>
   </component>
@@ -283,35 +279,27 @@
       <workItem from="1583714520258" duration="9187000" />
       <workItem from="1583805652098" duration="2396000" />
       <workItem from="1583892175549" duration="1422000" />
-      <workItem from="1583895577735" duration="1122000" />
-    </task>
-    <task id="LOCAL-00001" summary="数组第二天">
-      <created>1573200305341</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1573200305341</updated>
-    </task>
-    <task id="LOCAL-00002" summary="数组第二天">
-      <created>1573472525837</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1573472525837</updated>
-    </task>
-    <task id="LOCAL-00003" summary="数组第三天">
-      <created>1573559083484</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1573559083485</updated>
-    </task>
-    <task id="LOCAL-00004" summary="数组第四天">
-      <created>1573643424213</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1573643424213</updated>
+      <workItem from="1583895577735" duration="3411000" />
+      <workItem from="1584084471583" duration="8837000" />
+      <workItem from="1584429633757" duration="699000" />
+      <workItem from="1584513072069" duration="3607000" />
+      <workItem from="1584666543431" duration="741000" />
+      <workItem from="1585877028270" duration="15106000" />
+      <workItem from="1586220473311" duration="5397000" />
+      <workItem from="1586227043869" duration="439000" />
+      <workItem from="1586307036460" duration="3883000" />
+      <workItem from="1586317026040" duration="70000" />
+      <workItem from="1586317257247" duration="5173000" />
+      <workItem from="1586394838489" duration="6415000" />
+      <workItem from="1586482801302" duration="901000" />
+      <workItem from="1586738864499" duration="3443000" />
+      <workItem from="1586745433448" duration="565000" />
+      <workItem from="1586837478614" duration="753000" />
+      <workItem from="1586843405685" duration="15585000" />
+      <workItem from="1586923850154" duration="5906000" />
+      <workItem from="1586941819176" duration="5869000" />
+      <workItem from="1587009588484" duration="3981000" />
+      <workItem from="1587022413440" duration="254000" />
     </task>
     <task id="LOCAL-00005" summary="数组第五天">
       <created>1574394735480</created>
@@ -600,7 +588,63 @@
       <option name="project" value="LOCAL" />
       <updated>1583478612383</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="io,类加载修正">
+      <created>1583896764996</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1583896764996</updated>
+    </task>
+    <task id="LOCAL-00047" summary=".">
+      <created>1586403226279</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1586403226279</updated>
+    </task>
+    <task id="LOCAL-00048" summary="翻转字符串里的单词">
+      <created>1586483702212</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1586483702212</updated>
+    </task>
+    <task id="LOCAL-00049" summary="多态">
+      <created>1586853114921</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1586853114921</updated>
+    </task>
+    <task id="LOCAL-00050" summary="重写和重载">
+      <created>1586853910632</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1586853910635</updated>
+    </task>
+    <task id="LOCAL-00051" summary="泛型">
+      <created>1587022564610</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1587022564610</updated>
+    </task>
+    <task id="LOCAL-00052" summary="两数相加II">
+      <created>1587022589667</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1587022589667</updated>
+    </task>
+    <task id="LOCAL-00053" summary="01矩阵">
+      <created>1587022632499</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1587022632499</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,13 +665,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="添加线程池执行时序图" />
-    <MESSAGE value="项目改为maven项目" />
-    <MESSAGE value="测试线程缓存" />
-    <MESSAGE value="Integer的==和equals" />
-    <MESSAGE value="调整结构" />
-    <MESSAGE value="延时队列demo" />
-    <MESSAGE value="integer基础" />
     <MESSAGE value="排序算法" />
     <MESSAGE value="动态规划算法" />
     <MESSAGE value="递归算法" />
@@ -641,30 +678,27 @@
     <MESSAGE value="链表学习" />
     <MESSAGE value="队列学习" />
     <MESSAGE value="二叉树学习" />
-    <MESSAGE value="." />
     <MESSAGE value="synchronized和volatile关键字，threadLocal学习" />
     <MESSAGE value="线程池拒绝策略整理" />
     <MESSAGE value=" ." />
     <MESSAGE value="aqs,juc,threadPool增加修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="aqs,juc,threadPool增加修正" />
+    <MESSAGE value="io,类加载修正" />
+    <MESSAGE value="." />
+    <MESSAGE value="翻转字符串里的单词" />
+    <MESSAGE value="多态" />
+    <MESSAGE value="重写和重载" />
+    <MESSAGE value="泛型" />
+    <MESSAGE value="两数相加II" />
+    <MESSAGE value="01矩阵" />
+    <option name="LAST_COMMIT_MESSAGE" value="01矩阵" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/array/simple/Rotate.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/array/simple/Rotate.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/array/simple/YangHuiTriangleII.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/src/leetCode/backtracking/gen/GenerateParentheses.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -675,6 +709,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaData$GCTest.ic" NAME="GCTest Coverage Results" MODIFIED="1576044225950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>base.jvm.GC.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaData$RotateMatrixLcci.ic" NAME="RotateMatrixLcci Coverage Results" MODIFIED="1586223280440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetCode.array.general.*</FILTER>
     </SUITE>
   </component>
 </project>
