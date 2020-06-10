@@ -7,7 +7,16 @@ package base.jvm.classload;
  */
 public class Test {
     public static void main(String[] args) {
-        Student student = new Student();
-        student.function1();
+//        Student student = new Student();
+//        student.function1();
+
+        Teacher teacher = new Teacher();
+        teacher.function1();
+        System.out.println("teacher = " + teacher);
+        teacher.function11();
+
+//        Person person = new Person();
+//        person.function1();
+//        person.function11();
     }
 }

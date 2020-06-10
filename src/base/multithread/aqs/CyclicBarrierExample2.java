@@ -42,7 +42,7 @@ public class CyclicBarrierExample2 {
         System.out.println("threadnum:" + threadnum + "is ready");
         try {
             /**等待60秒，保证子线程完全执行结束*/
-            cyclicBarrier.await(60, TimeUnit.SECONDS);
+            cyclicBarrier.await(10, TimeUnit.SECONDS);
         } catch (Exception e) {
             System.out.println("-----CyclicBarrierException------");
         }

@@ -25,8 +25,10 @@ public class SemaphoreExample1 {
             threadPool.execute(() -> {// Lambda 表达式的运用
                 try {
                     semaphore.acquire();// 获取一个许可，所以可运行线程数量为20/1=20
+                    System.out.println("acquire = " + threadnum);
                     test(threadnum);
                     semaphore.release();// 释放一个许可
+                    System.out.println("release = " + threadnum);
                 } catch (InterruptedException e) {
                     // TODO Auto-generated catch block
                     e.printStackTrace();

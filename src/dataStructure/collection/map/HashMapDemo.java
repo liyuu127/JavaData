@@ -6,6 +6,12 @@ import java.util.Set;
 
 public class HashMapDemo {
     public static void main(String[] args) {
+//        test();
+        int i = tableSizeFor(9);
+        System.out.println("i = " + i);
+    }
+
+    private static void test() {
         HashMap<String, String> map = new HashMap<String, String>();
         // 键不能重复，值可以重复
         map.put("san", "张三");
@@ -66,4 +72,15 @@ public class HashMapDemo {
         System.out.println("after map.replace(si, 李四2):" + map);
     }
 
+    static final int MAXIMUM_CAPACITY = 1 << 30;
+
+    static final int tableSizeFor(int cap) {
+        int n = cap - 1;
+        n |= n >>> 1;
+        n |= n >>> 2;
+        n |= n >>> 4;
+        n |= n >>> 8;
+        n |= n >>> 16;
+        return (n < 0) ? 1 : (n >= MAXIMUM_CAPACITY) ? MAXIMUM_CAPACITY : n + 1;
+    }
 }

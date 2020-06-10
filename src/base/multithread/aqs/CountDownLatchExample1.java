@@ -36,6 +36,9 @@ public class CountDownLatchExample1 {
 
             });
         }
+        threadPool.shutdown();
+        boolean isTerminated = threadPool.isTerminated();
+        System.out.println("isTerminated = " + isTerminated);
         new Thread(()->{
             try {
                 countDownLatch.await();
@@ -54,10 +57,6 @@ public class CountDownLatchExample1 {
             }
             System.out.println(Thread.currentThread()+"finish");
         },"2").start();
-
-        countDownLatch.await();
-        threadPool.shutdown();
-        System.out.println("finish");
     }
 
     public static void test(int threadnum) throws InterruptedException {
