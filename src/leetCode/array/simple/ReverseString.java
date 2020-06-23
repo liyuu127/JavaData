@@ -1,5 +1,7 @@
 package leetCode.array.simple;
 
+import lombok.experimental.UtilityClass;
+
 import java.util.Arrays;
 
 /**

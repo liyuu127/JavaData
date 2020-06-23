@@ -61,7 +61,9 @@ public class PatternMatchingLcci {
             return false;
         }
         for (int len_a = 0; count_a * len_a <= value.length(); ++len_a) {
+            //b填充的长度
             int rest = value.length() - count_a * len_a;
+            //b为0解或其他自然数解
             if ((count_b == 0 && rest == 0) || (count_b != 0 && rest % count_b == 0)) {
                 int len_b = (count_b == 0 ? 0 : rest / count_b);
                 int pos = 0;

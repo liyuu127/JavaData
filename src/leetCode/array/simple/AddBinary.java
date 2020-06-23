@@ -1,51 +1,64 @@
 package leetCode.array.simple;
 
+
+import lombok.experimental.UtilityClass;
+
 /**
  * @author liyu
- * @date 2019/11/11 19:08
- * @description 给定两个二进制字符串，返回他们的和（用二进制表示）。
- * 输入为非空字符串且只包含数字 1 和 0。
+ * @date 2020/6/23 8:40
+ * @description 二进制求和
+ * 给你两个二进制字符串，返回它们的和（用二进制表示）。
+ * 输入为 非空 字符串且只包含数字?1?和?0。
  * <p>
- * 示例 1:
+ * 示例?1:
+ * <p>
  * 输入: a = "11", b = "1"
  * 输出: "100"
- * 示例 2:
+ * 示例?2:
+ * <p>
  * 输入: a = "1010", b = "1011"
  * 输出: "10101"
+ * ?
+ * 提示：
+ * <p>
+ * 每个字符串仅由字符 '0' 或 '1' 组成。
+ * 1 <= a.length, b.length <= 10^4
+ * 字符串如果不是 "0" ，就都不含前导零。
+ * <p>
+ * 来源：https://leetcode-cn.com/problems/add-binary
  */
-public class AddBinary {
+@UtilityClass
+public  class AddBinary {
+
     public static void main(String[] args) {
-        String a = "110010";
-        String b="110010";;
+        String a = "1010", b = "1011";
         String s = addBinary(a, b);
         System.out.println("s = " + s);
     }
+    public String addBinary(String a, String b) {
 
-    public static String addBinary(String a, String b) {
-        int alen = a.length() - 1;
-        int blen = b.length() - 1;
-        int sum = 0;
-        String result = "";
-        while (alen >= 0 || blen >= 0) {
-            if (alen >= 0) {
-                sum += Integer.parseInt(a.substring(alen, alen + 1));
-                alen--;
-            }
-            if (blen >= 0) {
-                sum += Integer.parseInt(b.substring(blen, blen + 1));
-                blen--;
-            }
-            if (sum == 0 || sum == 1) {
-                result = sum + result;
-                sum=0;
-            } else {
-                result = (sum - 2) + result;
-                sum = 1;
-            }
+        StringBuffer buffer = new StringBuffer();
+        int c = 0;
+        int al = a.length(), bl = b.length();
+        int i = 0;
+
+        while (i < al || i < bl) {
+            c += (i < al ? Integer.parseInt(String.valueOf(a.charAt(al-i-1))) : 0);
+            c += (i < bl ? Integer.parseInt(String.valueOf(b.charAt(bl-i-1))) : 0);
+            buffer.append(c % 2);
+            c = c / 2;
+            i++;
         }
-        if (sum == 1) {
-            result = "1" + result;
+        if(c>0){
+            buffer.append(1);
         }
-        return result;
+        return buffer.reverse().toString();
     }
+
+    public String addBinary2(String a, String b) {
+        return Integer.toBinaryString(
+                Integer.parseInt(a, 2) + Integer.parseInt(b, 2)
+        );
+    }
+
 }
