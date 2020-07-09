@@ -28,7 +28,7 @@ public class PathDemo {
 
         //创建文件/文件夹
 //        删除文件或目录
-//        demo4();
+        demo4();
 
 //        移除冗余项
 //        demo5();
