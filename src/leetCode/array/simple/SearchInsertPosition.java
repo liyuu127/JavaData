@@ -1,5 +1,7 @@
 package leetCode.array.simple;
 
+import java.util.Arrays;
+
 /**
  * @author liyu
  * @date 2019/11/8 10:57
@@ -24,6 +26,13 @@ public class SearchInsertPosition {
         int target = 7;
         int i = searchInsert(nums, target);
         System.out.println("i = " + i);
+        int index = Arrays.binarySearch(nums, target);
+        if(index>0){
+            System.out.println("index = " + index);
+        }else {
+            index=-index-1;
+            System.out.println("-index = " + index);
+        }
     }
 
     //±©Á¦±éÀú

@@ -12,7 +12,7 @@ public class CatalanNumber {
     public static void main(String[] args) {
         int i = catalanNumber(5);
         System.out.println("i = " + i);
-        int j = catalanNumber2(5);
+        int j = catalanNumber2(3);
         System.out.println("j = " + j);
 
     }

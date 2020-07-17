@@ -18,17 +18,17 @@ import java.util.List;
 public class PathDemo {
     public static void main(String[] args) {
         //创建一个Path
-//        demo1();
+        demo1();
 
         //File和Path之间的转换，File和URI之间的转换
-        demo2();
+//        demo2();
 
 //        检查给定的Path在文件系统中是否存在
 //        demo3();
 
         //创建文件/文件夹
 //        删除文件或目录
-        demo4();
+//        demo4();
 
 //        移除冗余项
 //        demo5();
