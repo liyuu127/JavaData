@@ -19,10 +19,11 @@ import java.util.HashMap;
 @UtilityClass
 public class SumOfTwoNumbers {
     public static void main(String[] args) {
-        int[] ints = {4, 5, 6, 8};
-        int t = 8;
+        int[] ints = {2, 7, 11, 15};
+        int t = 9;
         int[] ints1 = twoSum(ints, t);
         int[] ints2 = twoSum2(ints, t);
+        int[] ints3 = twoSumSorted(ints, t);
         System.out.println("ints2 = " + Arrays.toString(ints2));//Âý
         System.out.println("ints1 = " + Arrays.toString(ints1));
     }
@@ -46,6 +47,24 @@ public class SumOfTwoNumbers {
                 if (complete == nums[j]) {
                     return new int[]{i, j};
                 }
+            }
+        }
+        return null;
+
+    }
+
+    public int[] twoSumSorted(int[] nums, int target) {
+
+        int l = 0, r = nums.length - 1;
+
+        while (l < r) {
+            int sum = nums[l] + nums[r];
+            if (sum == target) {
+                return new int[]{l, r};
+            } else if (sum > target) {
+                r--;
+            } else {
+                l++;
             }
         }
         return null;
