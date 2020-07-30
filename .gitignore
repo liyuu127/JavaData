@@ -1,7 +1,13 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+.deploy*/
+node_modules/
 
-
-JavaData.iml
-target/
-.idea
-workspace.xml
-JavaData.iml
+*.iml
+*.ipr
+*.iws
+.idea/
+.mvn/
+/target
