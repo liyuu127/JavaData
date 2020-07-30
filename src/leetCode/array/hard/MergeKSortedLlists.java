@@ -119,11 +119,7 @@ public class MergeKSortedLlists {
         }
 
         //创建一个小根堆，并定义好排序函数
-        PriorityQueue<ListNode> queue = new PriorityQueue(new Comparator<ListNode>() {
-            public int compare(ListNode o1, ListNode o2) {
-                return (o1.val - o2.val);
-            }
-        });
+        PriorityQueue<ListNode> queue = new PriorityQueue((Comparator<ListNode>) (o1, o2) -> (o1.val - o2.val));
         ListNode dummy = new ListNode(-1);
         ListNode cur = dummy;
         //这里跟上一版不一样，不再是一股脑全部放到堆中
