@@ -5,7 +5,9 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
 import java.time.temporal.ChronoField;
 import java.time.temporal.ChronoUnit;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Locale;
 
 import static java.time.temporal.TemporalAdjusters.lastDayOfMonth;
@@ -39,6 +41,23 @@ public class TimeDemo {
 
         //打印输出及解析日期-时间对象
 //        demo7();
+
+        List<LocalDateTime> workerOrderShiftTimeList = getWorkerOrderShiftTimeList("20201221|20201229", "09:12|08:21");
+        workerOrderShiftTimeList.forEach(localDateTime -> System.out.println("localDateTime = " + localDateTime));
+    }
+
+    public static List<LocalDateTime> getWorkerOrderShiftTimeList(String lineBusinessTime, String shiftTime) {
+        String[] dateArrays = lineBusinessTime.trim().split("\\|");
+        String[] timeArrays = shiftTime.trim().split("\\|");
+        List<LocalDateTime> localDateTimeList = new ArrayList<>();
+        for (int i = 0; i < dateArrays.length; i++) {
+            LocalDate date = LocalDate.parse(dateArrays[i], DateTimeFormatter.BASIC_ISO_DATE);
+            for (int j = 0; j < timeArrays.length; j++) {
+                LocalTime time = LocalTime.parse(timeArrays[i], DateTimeFormatter.ISO_LOCAL_TIME);
+                localDateTimeList.add(LocalDateTime.of(date, time));
+            }
+        }
+        return localDateTimeList;
     }
 
     private static void demo7() {

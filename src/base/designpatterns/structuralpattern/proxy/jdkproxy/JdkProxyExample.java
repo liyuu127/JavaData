@@ -44,7 +44,7 @@ public class JdkProxyExample implements InvocationHandler {
         /**
          *  newProxyInstance 方法包含 3 个参数
          *  第 1 个是类加载器，我们采用了 target 本身 的类加载器
-         *  第 2 个是把生成的动态代理对象下挂在哪些接口下 ，这个写法就是放在 ta电et 实现的接口下。 HelloWorldlmpl 对象的接口显然就是 HelloWorld，代理对象可以这样声明： HelloWorld proxy = xxxx ；
+         *  第 2 个是把生成的动态代理对象下挂在哪些接口下 ，这个写法就是放在 target 实现的接口下。 HelloWorldImpl 对象的接口显然就是 HelloWorld，代理对象可以这样声明： HelloWorld proxy = xxxx ；
          *  第 3 个是定义实现方法逻辑的代理类， this 表示当前对象，它必须实现InvocationHandler 接口的 invoke 方法 ，它就是代理逻辑方法的现实方法。
          */
         return Proxy.newProxyInstance(target.getClass().getClassLoader(), target.getClass().getInterfaces(), this);
