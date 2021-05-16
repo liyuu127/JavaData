@@ -32,7 +32,6 @@ import java.util.Queue;
  * 链接：https://leetcode-cn.com/problems/number-of-islands
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-@UtilityClass
 public class NumberOfIslands {
 
     public static void main(String[] args) {
@@ -41,7 +40,7 @@ public class NumberOfIslands {
         System.out.println("i = " + i);
     }
 
-    public int numIslands(char[][] grid) {
+    public static int numIslands(char[][] grid) {
         int r = grid.length;
         if (r == 0) {
             return 0;
@@ -122,7 +121,7 @@ public class NumberOfIslands {
      * <p>
      * 最终岛屿的数量就是并查集中连通分量的数目
      */
-    class UnionFind {
+    static class UnionFind {
         int count;
         int[] parent;
         int[] rank;

@@ -13,13 +13,16 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>11</source>
+                    <target>11</target>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
+    <properties>
+        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+    </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.ow2.asm/asm -->
         <dependency>
@@ -58,8 +61,8 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.6</version>
-            <scope>provided</scope>
+            <version>1.18.20</version>
         </dependency>
+
     </dependencies>
 </project>
