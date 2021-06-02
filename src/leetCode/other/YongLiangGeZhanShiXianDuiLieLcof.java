@@ -45,7 +45,7 @@ public class YongLiangGeZhanShiXianDuiLieLcof {
      * obj.appendTail(value);
      * int param_2 = obj.deleteHead();
      */
-    class CQueue {
+    static class CQueue {
         Stack<Integer> stack1;
         Stack<Integer> stack2;
 

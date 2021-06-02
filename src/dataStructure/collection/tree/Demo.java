@@ -1,11 +1,9 @@
 package dataStructure.collection.tree;
 
 import lombok.experimental.UtilityClass;
-import sun.misc.Queue;
 
-import javax.swing.tree.TreeNode;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * @author liyu
@@ -84,16 +82,16 @@ public class Demo {
             return 0;
         }
         int count = 0;
-        Queue<BinaryTreeNode> binaryTreeNodeQueue = new Queue<>();
-        binaryTreeNodeQueue.enqueue(root);
+        Queue<BinaryTreeNode> binaryTreeNodeQueue = new LinkedList<>();
+        binaryTreeNodeQueue.add(root);
         while (!binaryTreeNodeQueue.isEmpty()) {
-            BinaryTreeNode temp = binaryTreeNodeQueue.dequeue();
+            BinaryTreeNode temp = binaryTreeNodeQueue.poll();
             count++;
             if (temp.getLeftChild() != null) {
-                binaryTreeNodeQueue.enqueue(temp.getLeftChild());
+                binaryTreeNodeQueue.add(temp.getLeftChild());
             }
             if (temp.getRightChild() != null) {
-                binaryTreeNodeQueue.enqueue(temp.getRightChild());
+                binaryTreeNodeQueue.add(temp.getRightChild());
             }
         }
         return count;
@@ -124,16 +122,16 @@ public class Demo {
         if (root == null) {
             return null;
         }
-        Queue<BinaryTreeNode> queue = new Queue<>();
+        Queue<BinaryTreeNode> queue = new LinkedList<>();
         BinaryTreeNode temp = null;
-        queue.enqueue(root);
+        queue.add(root);
         while (!queue.isEmpty()) {
-            temp = queue.dequeue();
+            temp = queue.poll();
             if (temp.getLeftChild() != null) {
-                queue.enqueue(temp.getLeftChild());
+                queue.add(temp.getLeftChild());
             }
             if (temp.getRightChild() != null) {
-                queue.enqueue(temp.getRightChild());
+                queue.add(temp.getRightChild());
             }
         }
         return temp;
@@ -211,12 +209,13 @@ public class Demo {
     /**
      * LCA
      * 查找二叉树中结点最接近的公共祖先
+     *
      * @param root
      * @param nodeA
      * @param nodeB
      * @return
      */
-    public BinaryTreeNode LCA(BinaryTreeNode root, BinaryTreeNode nodeA,BinaryTreeNode nodeB) {
+    public BinaryTreeNode LCA(BinaryTreeNode root, BinaryTreeNode nodeA, BinaryTreeNode nodeB) {
 
         return new BinaryTreeNode();
 

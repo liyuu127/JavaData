@@ -22,7 +22,6 @@ import java.util.*;
  * 链接：https://leetcode-cn.com/problems/merge-k-sorted-lists
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-@UtilityClass
 public class MergeKSortedLlists {
     public static void main(String[] args) {
         ListNode node1 = new ListNode(1);
@@ -41,7 +40,7 @@ public class MergeKSortedLlists {
         System.out.println("node = " + node);
     }
 
-    public ListNode mergeKLists(ListNode[] lists) {
+    public static ListNode mergeKLists(ListNode[] lists) {
         int length = lists.length;
         if (length == 0) {
             return null;
@@ -88,7 +87,7 @@ public class MergeKSortedLlists {
      * @param lists
      * @return
      */
-    public ListNode mergeKLists2(ListNode[] lists) {
+    public static ListNode mergeKLists2(ListNode[] lists) {
         if (lists == null || lists.length == 0) {
             return null;
         }
@@ -112,7 +111,7 @@ public class MergeKSortedLlists {
         return head.next;
     }
 
-    public ListNode mergeKLists3(ListNode[] lists) {
+    public static ListNode mergeKLists3(ListNode[] lists) {
 
         if (lists == null || lists.length == 0) {
             return null;
@@ -146,7 +145,7 @@ public class MergeKSortedLlists {
 
 
     //  Definition for singly-linked list.
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
 

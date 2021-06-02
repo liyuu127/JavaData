@@ -12,8 +12,9 @@ public class BinaryString {
     static int A[] = new int[n];
 
     public static void main(String[] args) {
-        printBinaryString(n);
-        K(n,10);
+//        printBinaryString(n);
+////        K(n,10);
+        System.out.println("true = " + (false||false||false&&true));
     }
 
     /**

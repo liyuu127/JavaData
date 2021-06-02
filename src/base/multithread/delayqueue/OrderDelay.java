@@ -2,7 +2,6 @@ package base.multithread.delayqueue;
 
 import lombok.Getter;
 import lombok.Setter;
-import lombok.var;
 
 import java.util.Date;
 import java.util.concurrent.Delayed;

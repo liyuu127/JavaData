@@ -1,7 +1,5 @@
 package algorithm.greedy;
 
-import jdk.nashorn.internal.ir.BinaryNode;
-
 import java.util.Arrays;
 
 public class HuffmanTree {
