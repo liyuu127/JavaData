@@ -21,26 +21,26 @@ package leetCode.List;
  */
 public class PalindromeLinkedList {
     public static void main(String[] args) {
-        ListNode l1=new ListNode(1);
-        ListNode l2=new ListNode(2);
-        ListNode l3=new ListNode(2);
-        ListNode l4=new ListNode(1);
+        SingleListNode l1=new SingleListNode(1);
+        SingleListNode l2=new SingleListNode(2);
+        SingleListNode l3=new SingleListNode(2);
+        SingleListNode l4=new SingleListNode(1);
         l1.next=l2;
         l2.next=l3;
         l3.next=l4;
         boolean palindrome = isPalindrome(l1);
         System.out.println("palindrome = " + palindrome);
     }
-    public static boolean isPalindrome(ListNode head) {
+    public static boolean isPalindrome(SingleListNode head) {
         if (head == null) return true;
 
         // 找到前半部分链表的尾节点并反转后半部分链表
-        ListNode firstHalfEnd = endOfFirstHalf(head);
-        ListNode secondHalfStart = reverseList(firstHalfEnd.next);
+        SingleListNode firstHalfEnd = endOfFirstHalf(head);
+        SingleListNode secondHalfStart = reverseList(firstHalfEnd.next);
 
         //对比head pre是否相同
-        ListNode p1 = head;
-        ListNode p2 = secondHalfStart;
+        SingleListNode p1 = head;
+        SingleListNode p2 = secondHalfStart;
         boolean result = true;
         while (result && p2 != null) {
             if (p1.val != p2.val) {
@@ -56,9 +56,9 @@ public class PalindromeLinkedList {
     }
 
 
-    private static ListNode middleNode(ListNode head) {
-        ListNode slow = head;
-        ListNode fast = head;
+    private static SingleListNode middleNode(SingleListNode head) {
+        SingleListNode slow = head;
+        SingleListNode fast = head;
         while (fast.next != null && fast.next.next != null) {
             slow = slow.next;
             fast = fast.next.next;
@@ -67,11 +67,11 @@ public class PalindromeLinkedList {
 
     }
 
-    private static ListNode reverseList(ListNode head) {
-        ListNode prev = null;
-        ListNode curr = head;
+    private static SingleListNode reverseList(SingleListNode head) {
+        SingleListNode prev = null;
+        SingleListNode curr = head;
         while (curr != null) {
-            ListNode nextTemp = curr.next;
+            SingleListNode nextTemp = curr.next;
             curr.next = prev;
             prev = curr;
             curr = nextTemp;
@@ -79,9 +79,9 @@ public class PalindromeLinkedList {
         return prev;
     }
 
-    private static ListNode endOfFirstHalf(ListNode head) {
-        ListNode fast = head;
-        ListNode slow = head;
+    private static SingleListNode endOfFirstHalf(SingleListNode head) {
+        SingleListNode fast = head;
+        SingleListNode slow = head;
         while (fast.next != null && fast.next.next != null) {
             fast = fast.next.next;
             slow = slow.next;
@@ -92,20 +92,3 @@ public class PalindromeLinkedList {
 
 
 
-// Definition for singly-linked list.
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
