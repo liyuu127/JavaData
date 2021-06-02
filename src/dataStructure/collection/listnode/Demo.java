@@ -27,7 +27,7 @@ public class Demo {
 //         testInsertSortedList();
 
         //测试链表反转
-//        testReverseList();
+        testReverseList();
 
         //测试查找链表相交结点
 //        testIntersectingNode();
@@ -147,7 +147,7 @@ public class Demo {
         listNode1.setNext(listNode2);
         listNode2.setNext(listNode3);
         listNode3.setNext(listNode4);
-        ListNode listNode5 = ReverseList(listNode1);
+        ListNode listNode5 = reverseList(listNode1);
         printListNode(listNode5);
     }
 
@@ -523,7 +523,7 @@ public class Demo {
      * @param headNode
      * @return
      */
-    public ListNode ReverseList(ListNode headNode) {
+    public ListNode reverseList(ListNode headNode) {
         ListNode next = null;
         ListNode temp = null;
         while (headNode != null) {
@@ -533,6 +533,37 @@ public class Demo {
             headNode = next;
         }
         return temp;
+    }
+
+    /**
+     * 翻转[head,tail]的lian
+     *
+     * @param headNode
+     * @param tail
+     * @return
+     */
+    public ListNode reverseList(ListNode headNode, ListNode tail) {
+        ListNode next = null;
+        ListNode temp = null;
+        while (headNode != null && headNode != tail) {
+            next = headNode.getNext();
+            headNode.setNext(temp);
+            temp = headNode;
+            headNode = next;
+        }
+        return temp;
+    }
+
+    /**
+     * 判断是否是回文结构
+     *
+     * @param headNode
+     * @return
+     */
+    public boolean palindrome(ListNode headNode) {
+
+
+        return true;
     }
 
     /**
