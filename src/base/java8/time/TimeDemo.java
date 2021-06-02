@@ -1,14 +1,16 @@
 package base.java8.time;
 
+import base.jvm.classload.Person;
+import lombok.Data;
+
+import java.text.SimpleDateFormat;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
 import java.time.temporal.ChronoField;
 import java.time.temporal.ChronoUnit;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
+import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 import static java.time.temporal.TemporalAdjusters.lastDayOfMonth;
 import static java.time.temporal.TemporalAdjusters.nextOrSame;
@@ -19,7 +21,7 @@ import static java.time.temporal.TemporalAdjusters.nextOrSame;
  * @description
  */
 public class TimeDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         //创建一个LocalDate对象并读取其值
 //        demo1();
@@ -42,23 +44,17 @@ public class TimeDemo {
         //打印输出及解析日期-时间对象
 //        demo7();
 
-        List<LocalDateTime> workerOrderShiftTimeList = getWorkerOrderShiftTimeList("20201221|20201229", "09:12|08:21");
-        workerOrderShiftTimeList.forEach(localDateTime -> System.out.println("localDateTime = " + localDateTime));
+        System.out.println("858815^9527 = " + (858815 ^ 9527));
+        System.out.println("877755^9527 = " + (877755 ^ 9527));
     }
 
-    public static List<LocalDateTime> getWorkerOrderShiftTimeList(String lineBusinessTime, String shiftTime) {
-        String[] dateArrays = lineBusinessTime.trim().split("\\|");
-        String[] timeArrays = shiftTime.trim().split("\\|");
-        List<LocalDateTime> localDateTimeList = new ArrayList<>();
-        for (int i = 0; i < dateArrays.length; i++) {
-            LocalDate date = LocalDate.parse(dateArrays[i], DateTimeFormatter.BASIC_ISO_DATE);
-            for (int j = 0; j < timeArrays.length; j++) {
-                LocalTime time = LocalTime.parse(timeArrays[i], DateTimeFormatter.ISO_LOCAL_TIME);
-                localDateTimeList.add(LocalDateTime.of(date, time));
-            }
-        }
-        return localDateTimeList;
+    @Data
+    static class User {
+        private Integer id;
+        private String name;
+        private Boolean flag;
     }
+
 
     private static void demo7() {
         //格式器生成字符串

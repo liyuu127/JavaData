@@ -26,7 +26,7 @@ public class NIOServer {
         // 2. clientSelector负责轮询连接是否有数据可读
         Selector clientSelector = Selector.open();
 
-        new Thread(() -> {
+            new Thread(() -> {
             try {
                 // 对应IO编程中服务端启动
                 ServerSocketChannel listenerChannel = ServerSocketChannel.open();
