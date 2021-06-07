@@ -2,7 +2,9 @@ package dataStructure.collection.stack;
 
 import lombok.experimental.UtilityClass;
 
+import java.util.ArrayDeque;
 import java.util.Arrays;
+import java.util.Deque;
 import java.util.Stack;
 
 /**
@@ -21,7 +23,33 @@ public class Demo {
 //        int[] ints = findingSpans(intPutArray);
 //        System.out.println("Arrays.toString(ints) = " + Arrays.toString(ints));
 
+        dequeTest();
 
+    }
+
+    private static void dequeTest() {
+        Deque<Integer> stack = new ArrayDeque<>();
+        stack.addLast(1);
+        stack.addLast(2);
+        stack.addLast(3);
+        stack.addLast(4);
+        stack.addLast(5);
+        stack.addLast(6);
+        stack.addFirst(1);
+        stack.addFirst(2);
+        stack.addFirst(3);
+        stack.addFirst(4);
+        stack.addFirst(5);
+        stack.addFirst(6);
+        stack.addFirst(7);
+        System.out.println("stack.peekFirst() = " + stack.peekFirst());
+        System.out.println("stack.peekLast() = " + stack.peekLast());
+        System.out.println("stack.poll() = " + stack.poll());
+        System.out.println("stack.pollFirst() = " + stack.pollFirst());
+        System.out.println("stack.pollLast() = " + stack.pollLast());
+        System.out.println("stack.remove() = " + stack.remove());
+        System.out.println("stack.removeFirst() = " + stack.removeFirst());
+        System.out.println("stack.removeLast() = " + stack.removeLast());
     }
 
     private static void testStackReverse() {
