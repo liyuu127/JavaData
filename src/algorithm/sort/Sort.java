@@ -570,7 +570,7 @@ public class Sort {
      */
     private static int getMaxDigit(int[] arr) {
         int maxValue = getMaxValue(arr);
-        return getNumLenght(maxValue);
+        return getNamLength(maxValue);
     }
 
     /**
@@ -579,7 +579,7 @@ public class Sort {
      * @param num
      * @return
      */
-    private static int getNumLenght(long num) {
+    private static int getNamLength(long num) {
         if (num == 0) {
             return 1;
         }
