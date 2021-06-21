@@ -37,7 +37,7 @@ public class GraphAdjacencyList {
     }
 
     public void removeEdge(int i, int j) {
-        edges[i].remove(Integer.valueOf(j));
+        edges[i].remove(j);
     }
 
     public boolean isEdge(int i, int j) {
