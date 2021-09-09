@@ -1,14 +1,14 @@
 package base.io.path;
 
-import dataStructure.JunkCourse.ch04.LinkList;
-
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.net.URI;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * @author liyu
@@ -16,9 +16,11 @@ import java.util.List;
  * @description https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247484947&amp;idx=1&amp;sn=5b3075b83724f5d510e4220488cc1d16&source=41#wechat_redirect
  */
 public class PathDemo {
-    public static void main(String[] args) {
+
+
+    public static void main(String[] args) throws IOException {
         //创建一个Path
-        demo1();
+//        demo1();
 
         //File和Path之间的转换，File和URI之间的转换
 //        demo2();
@@ -44,18 +46,64 @@ public class PathDemo {
 
         //遍历整个文件目录
 //        demo9();
+        fileReadAndWrite();
+        return;
 
+    }
+
+    private static void fileReadAndWrite() throws IOException {
+        var path = "C:\\Users\\haylion\\Downloads\\0909\\metro-safeControl-info-2021-09-08-1.log";
+        var outPath = "C:\\Users\\haylion\\Downloads\\0909\\tag.log";
+        var fr = new FileReader(path);
+        var bf = new BufferedReader(fr);
+        HashSet<Integer> tagSet = new HashSet<>();
+        AtomicInteger preTag =new AtomicInteger(-1);
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(outPath));
+        bf.lines()
+                .filter(s -> s.contains("<<<<< ip"))
+                .map(s -> s.substring(0, 23) + "---" + s.substring(s.indexOf("hex")))
+//                .filter(s -> {
+//                    Integer tag = Integer.valueOf(s.substring(38, 42), 16);
+//                    if(preTag.get() ==tag){
+//                        return false;
+//                    }else {
+//                        preTag.set(tag);
+//                        return true;
+//                    }
+//                })
+                .filter(s -> {
+                    Integer tag = Integer.valueOf(s.substring(38, 42), 16);
+                    if (tagSet.contains(tag)) {
+                        return false;
+                    } else {
+                        tagSet.add(tag);
+                        return true;
+                    }
+                })
+                .map(s -> {
+                    String hex = s.substring(38, 42);
+                    return s + "  " + hex + "  " + Integer.valueOf(hex, 16).toString();
+                })
+                .forEach(s -> {
+                    try {
+                        bufferedWriter.write(s);
+                        bufferedWriter.newLine();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                });
+        bufferedWriter.flush();
     }
 
     private static void demo9() {
         Path src = Paths.get("src");
         List pathLinkList = new LinkedList<Path>();
         try {
-            Files.walkFileTree(src,new FindJavaVistor(pathLinkList));
+            Files.walkFileTree(src, new FindJavaVistor(pathLinkList));
         } catch (IOException e) {
             e.printStackTrace();
         }
-        pathLinkList.forEach(e-> System.out.println("e = " + e));
+        pathLinkList.forEach(e -> System.out.println("e = " + e));
     }
 
     private static class FindJavaVistor extends SimpleFileVisitor<Path> {
