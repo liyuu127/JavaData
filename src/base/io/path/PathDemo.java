@@ -52,8 +52,8 @@ public class PathDemo {
     }
 
     private static void fileReadAndWrite() throws IOException {
-        var path = "C:\\Users\\haylion\\Downloads\\0909\\metro-safeControl-info-2021-09-08-1.log";
-        var outPath = "C:\\Users\\haylion\\Downloads\\0909\\tag.log";
+        var path = "C:\\Users\\liyu\\Downloads\\0918-01-safeControl\\metro-safeControl-info-2021-09-17-0.log";
+        var outPath = "C:\\Users\\liyu\\Downloads\\0918-01-safeControl\\tag.log";
         var fr = new FileReader(path);
         var bf = new BufferedReader(fr);
         HashSet<Integer> tagSet = new HashSet<>();
@@ -71,15 +71,15 @@ public class PathDemo {
 //                        return true;
 //                    }
 //                })
-                .filter(s -> {
-                    Integer tag = Integer.valueOf(s.substring(38, 42), 16);
-                    if (tagSet.contains(tag)) {
-                        return false;
-                    } else {
-                        tagSet.add(tag);
-                        return true;
-                    }
-                })
+//                .filter(s -> {
+//                    Integer tag = Integer.valueOf(s.substring(38, 42), 16);
+//                    if (tagSet.contains(tag)) {
+//                        return false;
+//                    } else {
+//                        tagSet.add(tag);
+//                        return true;
+//                    }
+//                })
                 .map(s -> {
                     String hex = s.substring(38, 42);
                     return s + "  " + hex + "  " + Integer.valueOf(hex, 16).toString();
