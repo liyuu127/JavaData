@@ -52,18 +52,20 @@ public class PathDemo {
     }
 
     private static void fileReadAndWrite() throws IOException {
-        var path = "C:\\Users\\liyu\\Downloads\\0918-01-safeControl\\metro-safeControl-info-2021-09-17-0.log";
-        var outPath = "C:\\Users\\liyu\\Downloads\\0918-01-safeControl\\tag.log";
+
+        var pathPrefix = "C:\\Users\\haylion\\Downloads\\0923-01-safeControl\\";
+        var path = pathPrefix + "metro-safeControl-info-2021-09-22-0.log";
+        var outPath = pathPrefix + "tag.log";
         var fr = new FileReader(path);
         var bf = new BufferedReader(fr);
         HashSet<Integer> tagSet = new HashSet<>();
-        AtomicInteger preTag =new AtomicInteger(-1);
+        AtomicInteger preTag = new AtomicInteger(-1);
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(outPath));
         bf.lines()
                 .filter(s -> s.contains("<<<<< ip"))
                 .map(s -> s.substring(0, 23) + "---" + s.substring(s.indexOf("hex")))
 //                .filter(s -> {
-//                    Integer tag = Integer.valueOf(s.substring(38, 42), 16);
+//                    int tag = Integer.valueOf(s.substring(38, 42), 16);
 //                    if(preTag.get() ==tag){
 //                        return false;
 //                    }else {
@@ -93,6 +95,8 @@ public class PathDemo {
                     }
                 });
         bufferedWriter.flush();
+        bufferedWriter.close();
+        bf.close();
     }
 
     private static void demo9() {
