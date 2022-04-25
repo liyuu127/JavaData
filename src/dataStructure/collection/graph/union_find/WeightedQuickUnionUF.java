@@ -1,34 +1,35 @@
 package dataStructure.collection.graph.union_find;
 
+import java.util.Arrays;
+
 /**
  * @author liyu
- * date 2022/4/25 11:55
- * description quick-union算法
+ * date 2022/4/25 15:40
+ * description 加权quick-union 算法的UnionFind
  */
-public class QuickUnion {
+public class WeightedQuickUnionUF {
     /**
-     * 分量id 索引位触点，值为同分量中的任意触点
+     * 父链接数组
      */
     private int[] id;
     /**
-     * 分量个数
+     * 各个根节点对应的分量大小
+     */
+    private int[] sz;
+    /**
+     * 连通分量的数量
      */
     private int count;
 
-    public QuickUnion(int n) {
+    public WeightedQuickUnionUF(int n) {
         this.count = n;
         this.id = new int[n];
         for (int i = 0; i < id.length; i++) {
             id[i] = i;
         }
+        Arrays.fill(sz, 1);
     }
 
-    /**
-     * 查询根触点
-     *
-     * @param p
-     * @return
-     */
     public int find(int p) {
         /**
          * 迭代查询父节点
@@ -53,9 +54,12 @@ public class QuickUnion {
         if (pId == qId) {
             return;
         }
-        id[p] = qId;
+        //如果p是小树则p挂到q上
+        if (sz[pId] < sz[qId]) {
+            id[pId] = qId;
+        } else {
+            id[qId] = pId;
+        }
         count--;
     }
-
-
 }
