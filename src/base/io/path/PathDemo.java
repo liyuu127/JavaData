@@ -1,5 +1,7 @@
 package base.io.path;
 
+import org.apache.commons.io.FileUtils;
+
 import java.io.*;
 import java.net.URI;
 import java.nio.file.*;
@@ -19,34 +21,34 @@ public class PathDemo {
 
 
     public static void main(String[] args) throws IOException {
-        //´´½¨Ò»¸öPath
+        //åˆ›å»ºä¸€ä¸ªPath
 //        demo1();
 
-        //FileºÍPathÖ®¼äµÄ×ª»»£¬FileºÍURIÖ®¼äµÄ×ª»»
+        //Fileå’ŒPathä¹‹é—´çš„è½¬æ¢ï¼ŒFileå’ŒURIä¹‹é—´çš„è½¬æ¢
 //        demo2();
 
-//        ¼ì²é¸ø¶¨µÄPathÔÚÎÄ¼şÏµÍ³ÖĞÊÇ·ñ´æÔÚ
+//        æ£€æŸ¥ç»™å®šçš„Pathåœ¨æ–‡ä»¶ç³»ç»Ÿä¸­æ˜¯å¦å­˜åœ¨
 //        demo3();
 
-        //´´½¨ÎÄ¼ş/ÎÄ¼ş¼Ğ
-//        É¾³ıÎÄ¼ş»òÄ¿Â¼
+        //åˆ›å»ºæ–‡ä»¶/æ–‡ä»¶å¤¹
+//        åˆ é™¤æ–‡ä»¶æˆ–ç›®å½•
 //        demo4();
 
-//        ÒÆ³ıÈßÓàÏî
+//        ç§»é™¤å†—ä½™é¡¹
 //        demo5();
 
-        //ÎÄ¼ş¸´ÖÆ
+        //æ–‡ä»¶å¤åˆ¶
 //        demo6();
 
-        //»ñÈ¡ÎÄ¼şÊôĞÔ
+        //è·å–æ–‡ä»¶å±æ€§
 //        demo7();
 
-        //±éÀúÎÄ¼ş¼Ğ
+        //éå†æ–‡ä»¶å¤¹
 //        demo8();
 
-        //±éÀúÕû¸öÎÄ¼şÄ¿Â¼
-//        demo9();
-        fileReadAndWrite();
+        //éå†æ•´ä¸ªæ–‡ä»¶ç›®å½•
+        demo9();
+//        fileReadAndWrite();
         return;
 
     }
@@ -99,15 +101,33 @@ public class PathDemo {
         bf.close();
     }
 
-    private static void demo9() {
-        Path src = Paths.get("src");
-        List pathLinkList = new LinkedList<Path>();
+    private static void demo9() throws IOException {
+//        Path src = Paths.get("src");
+        Path src = Paths.get("D:\\workPlace\\gitRepositories\\health-stagecoach");
+        List<Path> pathLinkList = new LinkedList<Path>();
         try {
             Files.walkFileTree(src, new FindJavaVistor(pathLinkList));
         } catch (IOException e) {
             e.printStackTrace();
         }
         pathLinkList.forEach(e -> System.out.println("e = " + e));
+        String pathname = "C:\\Users\\haylion\\Desktop\\c.txt";
+        File c = new File(pathname);
+        pathLinkList.forEach(e->{
+            try {
+                write(c,new File(e.toAbsolutePath().toString()));
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        });
+    }
+    public static void write(File file, File in) throws IOException {
+        String s = new String(FileUtils.readFileToByteArray(in),"utf-8");
+        FileUtils.writeStringToFile(file,s,"utf-8",true);
+        System.out.println("s = " + s);
+//        FileUtils.writeByteArrayToFile(file,FileUtils.readFileToByteArray(in),true);
+
+
     }
 
     private static class FindJavaVistor extends SimpleFileVisitor<Path> {
@@ -120,7 +140,8 @@ public class PathDemo {
         @Override
         public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
             if (file.toString().endsWith(".java")) {
-                result.add(file.getFileName());
+
+                result.add(file.toAbsolutePath());
             }
             return FileVisitResult.CONTINUE;
         }
@@ -160,7 +181,7 @@ public class PathDemo {
     }
 
     private static void demo6() {
-        //        °ÑÒ»¸öÎÄ¼ş´ÓÒ»¸öµØÖ·¸´ÖÆµ½ÁíÒ»¸öÎ»ÖÃ
+        //        æŠŠä¸€ä¸ªæ–‡ä»¶ä»ä¸€ä¸ªåœ°å€å¤åˆ¶åˆ°å¦ä¸€ä¸ªä½ç½®
         Path path = Paths.get("resources/test");
         boolean exists = Files.exists(path);
         System.out.println("exists = " + exists);
@@ -174,41 +195,41 @@ public class PathDemo {
         Path sourcePath = Paths.get("resources/pathTest2.txt");
         Path destinationPath = Paths.get("resources/test/pathTest2Copy.txt");
         try {
-            Files.copy(sourcePath, destinationPath, StandardCopyOption.REPLACE_EXISTING);//Ç¿ÖÆ¸²¸ÇÒÑ¾­´æÔÚµÄÄ¿±êÎÄ¼ş
+            Files.copy(sourcePath, destinationPath, StandardCopyOption.REPLACE_EXISTING);//å¼ºåˆ¶è¦†ç›–å·²ç»å­˜åœ¨çš„ç›®æ ‡æ–‡ä»¶
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
     private static void demo5() {
-        //?	normalize() : ·µ»ØÒ»¸öÂ·¾¶£¬¸ÃÂ·¾¶ÊÇÈßÓàÃû³ÆÔªËØµÄÏû³ı¡£
-        //?	toRealPath() : ÈÚºÏÁËtoAbsolutePath()·½·¨ºÍnormalize()·½·¨
+        //?	normalize() : è¿”å›ä¸€ä¸ªè·¯å¾„ï¼Œè¯¥è·¯å¾„æ˜¯å†—ä½™åç§°å…ƒç´ çš„æ¶ˆé™¤ã€‚
+        //?	toRealPath() : èåˆäº†toAbsolutePath()æ–¹æ³•å’Œnormalize()æ–¹æ³•
 
-        //.±íÊ¾µÄÊÇµ±Ç°Ä¿Â¼
+        //.è¡¨ç¤ºçš„æ˜¯å½“å‰ç›®å½•
         Path currentDir = Paths.get(".");
-        System.out.println(currentDir.toAbsolutePath());//Êä³öC:\Users\Administrator\NIODemo\.
+        System.out.println(currentDir.toAbsolutePath());//è¾“å‡ºC:\Users\Administrator\NIODemo\.
         Path currentDir2 = Paths.get(".\\NIODemo.iml");
-        System.out.println("Ô­Ê¼Â·¾¶¸ñÊ½£º" + currentDir2.toAbsolutePath());
-        System.out.println("Ö´ĞĞnormalize£¨£©·½·¨Ö®ºó£º" + currentDir2.toAbsolutePath().normalize());
+        System.out.println("åŸå§‹è·¯å¾„æ ¼å¼ï¼š" + currentDir2.toAbsolutePath());
+        System.out.println("æ‰§è¡Œnormalizeï¼ˆï¼‰æ–¹æ³•ä¹‹åï¼š" + currentDir2.toAbsolutePath().normalize());
         try {
-            System.out.println("Ö´ĞĞtoRealPath()·½·¨Ö®ºó£º" + currentDir2.toRealPath());
+            System.out.println("æ‰§è¡ŒtoRealPath()æ–¹æ³•ä¹‹åï¼š" + currentDir2.toRealPath());
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        //..±íÊ¾¸¸Ä¿Â¼»òÕßËµÊÇÉÏÒ»¼¶Ä¿Â¼£º
+        //..è¡¨ç¤ºçˆ¶ç›®å½•æˆ–è€…è¯´æ˜¯ä¸Šä¸€çº§ç›®å½•ï¼š
         Path currentDir3 = Paths.get("..");
-        System.out.println("Ô­Ê¼Â·¾¶¸ñÊ½£º" + currentDir3.toAbsolutePath());
-        System.out.println("Ö´ĞĞnormalize£¨£©·½·¨Ö®ºó£º" + currentDir3.toAbsolutePath().normalize());
+        System.out.println("åŸå§‹è·¯å¾„æ ¼å¼ï¼š" + currentDir3.toAbsolutePath());
+        System.out.println("æ‰§è¡Œnormalizeï¼ˆï¼‰æ–¹æ³•ä¹‹åï¼š" + currentDir3.toAbsolutePath().normalize());
         try {
-            System.out.println("Ö´ĞĞtoRealPath()·½·¨Ö®ºó£º" + currentDir3.toRealPath());
+            System.out.println("æ‰§è¡ŒtoRealPath()æ–¹æ³•ä¹‹åï¼š" + currentDir3.toRealPath());
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
     private static void demo4() {
-        //´´½¨ÎÄ¼ş
+        //åˆ›å»ºæ–‡ä»¶
         Path absolutePath = Paths.get("D:\\javaWorkplace\\gitDesktopWorkplace\\JavaData\\resources\\pathTest3.txt");
         System.out.println("Files.exists(absolutePath = " + Files.exists(absolutePath));
         if (!Files.exists(absolutePath)) {
@@ -219,7 +240,7 @@ public class PathDemo {
             }
         }
 
-        //´´½¨ÎÄ¼ş¼Ğ
+        //åˆ›å»ºæ–‡ä»¶å¤¹
         Path path = Paths.get("resources/test");
         boolean exists = Files.exists(path);
         System.out.println("exists = " + exists);
@@ -231,7 +252,7 @@ public class PathDemo {
             }
         }
 
-        //É¾³ıÎÄ¼ş»òÄ¿Â¼
+        //åˆ é™¤æ–‡ä»¶æˆ–ç›®å½•
         try {
             Files.delete(path);
         } catch (IOException e) {
@@ -245,14 +266,14 @@ public class PathDemo {
     }
 
     private static void demo3() {
-        //¼ì²é¸ø¶¨µÄPathÔÚÎÄ¼şÏµÍ³ÖĞÊÇ·ñ´æÔÚ
+        //æ£€æŸ¥ç»™å®šçš„Pathåœ¨æ–‡ä»¶ç³»ç»Ÿä¸­æ˜¯å¦å­˜åœ¨
         Path relativePath = Paths.get("resources/pathTest1.txt");
-        boolean exists = Files.exists(relativePath, new LinkOption[]{LinkOption.NOFOLLOW_LINKS});//±íÊ¾¼ì²âÊ±²»°üº¬·ûºÅÁ´½ÓÎÄ¼ş
+        boolean exists = Files.exists(relativePath, new LinkOption[]{LinkOption.NOFOLLOW_LINKS});//è¡¨ç¤ºæ£€æµ‹æ—¶ä¸åŒ…å«ç¬¦å·é“¾æ¥æ–‡ä»¶
         System.out.println("exists = " + exists);
     }
 
     private static void demo2() {
-        //        FileºÍPathÖ®¼äµÄ×ª»»£¬FileºÍURIÖ®¼äµÄ×ª»»
+        //        Fileå’ŒPathä¹‹é—´çš„è½¬æ¢ï¼ŒFileå’ŒURIä¹‹é—´çš„è½¬æ¢
         File file = new File("D:\\javaWorkplace\\gitDesktopWorkplace\\JavaData\\resources\\pathTest3.txt");
         Path path = file.toPath();
         System.out.println("path = " + path);
@@ -263,10 +284,10 @@ public class PathDemo {
     }
 
     private static void demo1() {
-        //Ê¹ÓÃ¾ø¶ÔÂ·¾¶
+        //ä½¿ç”¨ç»å¯¹è·¯å¾„
         Path absolutePath = Paths.get("D:\\javaWorkplace\\gitDesktopWorkplace\\JavaData\\resources\\pathTest1.txt");
         Path absolutePath2 = FileSystems.getDefault().getPath("D:\\javaWorkplace\\gitDesktopWorkplace\\JavaData\\resources\\pathTest1.txt");
-        //Ïà¶ÔÂ·¾¶ ×¢Òâ²»ÊÇ/resources/pathTest1.txt
+        //ç›¸å¯¹è·¯å¾„ æ³¨æ„ä¸æ˜¯/resources/pathTest1.txt
         Path relativePath = Paths.get("resources/pathTest1.txt");
         System.out.println("absolutePath = " + absolutePath);
         System.out.println("relativePath = " + relativePath);
