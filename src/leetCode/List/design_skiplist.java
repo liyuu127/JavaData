@@ -6,13 +6,13 @@ import java.util.Random;
 /**
  * @author liyu
  * date 2022/7/26 9:22
- * description �������
- * ��ʹ���κο⺯�������һ�� ���� ��
- * ���� ���� O(log(n)) ʱ����������ӡ�ɾ�����������������ݽṹ������������������������书���������൱�����������Ĵ��볤������¸��̣������˼�����������ơ�
+ * description 设计跳表
+ * 不使用任何库函数，设计一个 跳表 。
+ * 跳表 是在 O(log(n)) 时间内完成增加、删除、搜索操作的数据结构。跳表相比于树堆与红黑树，其功能与性能相当，并且跳表的代码长度相较下更短，其设计思想与链表相似。
  * <p>
- * ��Դ�����ۣ�LeetCode��
- * ���ӣ�https://leetcode.cn/problems/design-skiplist
- * ����Ȩ������������С���ҵת������ϵ�ٷ���Ȩ������ҵת����ע��������
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode.cn/problems/design-skiplist
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 public class design_skiplist {
     /**
@@ -40,13 +40,13 @@ public class design_skiplist {
         public boolean search(int target) {
             SkiplistNode curr = this.head;
             for (int i = level - 1; i >= 0; i--) {
-                /* �ҵ��� i ��С������ӽ� target ��Ԫ��*/
+                /* 找到第 i 层小于且最接近 target 的元素*/
                 while (curr.forward[i] != null && curr.forward[i].val < target) {
                     curr = curr.forward[i];
                 }
             }
             curr = curr.forward[0];
-            /* ��⵱ǰԪ�ص�ֵ�Ƿ���� target */
+            /* 检测当前元素的值是否等于 target */
             if (curr != null && curr.val == target) {
                 return true;
             }
@@ -62,7 +62,7 @@ public class design_skiplist {
 
             SkiplistNode curr = this.head;
             for (int i = level - 1; i >= 0; i--) {
-                /* �ҵ��� i ��С������ӽ� num ��Ԫ��*/
+                /* 找到第 i 层小于且最接近 num 的元素*/
                 while (curr.forward[i] != null && curr.forward[i].val < num) {
                     curr = curr.forward[i];
                 }
@@ -71,7 +71,7 @@ public class design_skiplist {
 
             SkiplistNode newNode = new SkiplistNode(num, lv);
             for (int i = 0; i < lv; i++) {
-                /* �Ե� i ���״̬���и��£�����ǰԪ�ص� forward ָ���µĽڵ� */
+                /* 对第 i 层的状态进行更新，将当前元素的 forward 指向新的节点 */
                 newNode.forward[i] = update[i].forward[i];
                 update[i].forward[i] = newNode;
             }
@@ -97,11 +97,11 @@ public class design_skiplist {
                 if (update[i].forward[i] != curr) {
                     break;
                 }
-                /* �Ե� i ���״̬���и��£��� forward ָ��ɾ���ڵ����һ�� */
+                /* 对第 i 层的状态进行更新，将 forward 指向被删除节点的下一跳 */
                 update[i].forward[i] = curr.forward[i];
             }
 
-            /* ���µ�ǰ�� level */
+            /* 更新当前的 level */
             while (level > 1 && head.forward[level - 1] == null) {
                 level--;
             }
