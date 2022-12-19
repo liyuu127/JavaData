@@ -38,12 +38,13 @@ public class FindIfPathExistsInGraph {
         for (int i = 0; i < n; i++) {
             lists[i] = new ArrayList<>();
         }
-        for (int i = 0; i < edges.length; i++) {
-            for (int j = 0; j < edges[i].length; j++) {
-                lists[i].add(j);
-                lists[j].add(i);
-            }
+        for (int[] edge : edges) {
+            int x = edge[0], y = edge[1];
+            lists[x].add(y);
+            lists[y].add(x);
         }
+
+
 
         boolean[] v = new boolean[n];
         ArrayDeque<Integer> de = new ArrayDeque<>();
@@ -97,6 +98,6 @@ public class FindIfPathExistsInGraph {
     }
 
     public static void main(String[] args) {
-        validPath(6, new int[][]{{0, 1}, {0, 2}, {3, 5}, {5, 4}, {4, 3}}, 0, 5);
+        validPath(6, new int[][]{{0, 4}}, 0, 4);
     }
 }
