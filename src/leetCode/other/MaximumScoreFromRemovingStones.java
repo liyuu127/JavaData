@@ -1,7 +1,5 @@
 package leetCode.other;
 
-import java.util.Arrays;
-
 /**
  * @author liyu
  * date 2022/12/21 9:16
@@ -46,7 +44,7 @@ public class MaximumScoreFromRemovingStones {
         int sum = a + b + c;
         int max = Math.max(Math.max(a, b), c);
         if (sum - max <= max) {
-            return max;
+            return sum - max;
         }
         return sum / 2;
 
