@@ -103,7 +103,7 @@ public class PathDemo {
 
     private static void demo9() throws IOException {
 //        Path src = Paths.get("src");
-        Path src = Paths.get("D:\\workPlace\\gitRepositories\\health-stagecoach");
+        Path src = Paths.get("C:\\Users\\11706\\Downloads\\ios5ptl-master\\ios5ptl-master");
         List<Path> pathLinkList = new LinkedList<Path>();
         try {
             Files.walkFileTree(src, new FindJavaVistor(pathLinkList));
@@ -111,7 +111,7 @@ public class PathDemo {
             e.printStackTrace();
         }
         pathLinkList.forEach(e -> System.out.println("e = " + e));
-        String pathname = "C:\\Users\\haylion\\Desktop\\c.txt";
+        String pathname = "C:\\Users\\11706\\Desktop\\ios5ptl-master_full_code.txt";
         File c = new File(pathname);
         pathLinkList.forEach(e->{
             try {
@@ -139,7 +139,7 @@ public class PathDemo {
 
         @Override
         public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-            if (file.toString().endsWith(".java")) {
+            if (file.toString().endsWith(".h")||file.toString().endsWith(".m")) {
 
                 result.add(file.toAbsolutePath());
             }
